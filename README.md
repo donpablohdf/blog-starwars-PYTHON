@@ -60,6 +60,6 @@ const MyComponentSuper = () => {
 1. **Vercel:** El proveedor de alojamiento recomendado GRATIS es [vercel.com](https://vercel.com/),
 puede implementar su proyecto en 1 minuto escribiendo los siguientes 2 comandos en el terminal:
 
-1.Instalar e iniciar sesión (es necesario tener una cuenta):  sudo npm i vercel -g && vercel login
-2.Implementar proyecto: vercel --prod
- 2.1. Hay un ejemplo de como hacerlo en el archivo  `/docs/deploy.png`
+* Instalar e iniciar sesión (es necesario tener una cuenta):  sudo npm i vercel -g && vercel login
+* Implementar proyecto: vercel --prod
+  * Hay un ejemplo de como hacerlo en el archivo  `/docs/deploy.png`
