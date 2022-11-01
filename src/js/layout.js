@@ -4,13 +4,12 @@ import ScrollToTop from "./component/scrollToTop";
 
 import { Home } from "./views/home";
 import { Demo } from "./views/demo";
-import { Single } from "./views/single";
+import { CardDetail } from "./views/CardDetail";
 import injectContext from "./services/appContext";
 
-import { Navbar } from "./component/navbar";
+import { Navbar } from "./component/Navbar";
 import { Footer } from "./component/footer";
 
-//create your first component
 const Layout = () => {
 	// const basename se usa cuando su proyecto se publica en un subdirectorio y no en la raíz del dominio
 	// puede establecer el nombre base en el archivo .env ubicado en la raíz de este proyecto, por ejemplo: BASENAME=/subdirectorio-publicacion/
@@ -25,7 +24,7 @@ const Layout = () => {
 					<Routes>
 						<Route  path="/" element={<Home/>}/>
 						<Route  path="/demo" element={<Demo />} />
-						<Route  path="/single/:theid" title="prueba" element={<Single />} />
+						<Route  path="/detail/:theid" element={<CardDetail />} />
 					</Routes>
 					<Footer />
 				</ScrollToTop>

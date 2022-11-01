@@ -20,6 +20,7 @@ const getState = ({ getStore, getActions, setStore }) => {
 				getActions().changeColor(0, "green");
 			},
 			loadSomeData: () => {
+			
 				/** para meter los datos de la API
 					fetch().then().then(data => setStore({ "foo": data.bar }))
 				*/
@@ -37,6 +38,10 @@ const getState = ({ getStore, getActions, setStore }) => {
 				//reset the global store
 				setStore({ demo: demo });
 			}
+		},
+		variables: {
+			urlHost: location.protocol + '//' + location.host,
+			windowHREF: window.location.href,
 		}
 	};
 };
