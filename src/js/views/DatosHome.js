@@ -3,7 +3,7 @@ import PropTypes from "prop-types";
 import { Link, useParams } from "react-router-dom";
 import { Context } from "../services/appContext";
 
-export const CardDetail = props => {
+export const DatosHome = props => {
 	const { store, actions } = useContext(Context);
 	const params = useParams();
 	return (
@@ -13,6 +13,6 @@ export const CardDetail = props => {
 	);
 };
 
-CardDetail.propTypes = {
+DatosHome.propTypes = {
 	match: PropTypes.object
 };

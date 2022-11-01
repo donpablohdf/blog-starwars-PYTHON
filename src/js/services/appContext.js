@@ -23,6 +23,7 @@ const injectContext = PassedComponent => {
 		);
 
 		useEffect(() => {
+			//fetch().then().then(data => setStore({ "foo": data.bar }))
 			// * ¡EDITA ESTO!
 			// * Esta función es el equivalente a "window.onLoad", solo se ejecuta una vez durante toda la vida útil de la aplicación
 			// * debe hacer sus solicitudes de ajax o buscar solicitudes de API aquí. No use setState() para guardar datos en el
