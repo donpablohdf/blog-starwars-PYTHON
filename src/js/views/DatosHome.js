@@ -11,20 +11,24 @@ export const DatosHome = props => {
 	const contexto = useContext(Context);
 	const datosMostrar= contexto[seccion]["result"]
 	return (
-            datosMostrar.map((dato) =>
-				<div className="card d-inline-flex m-3" key={dato.uid} >
-					<img src="https://via.placeholder.com/200" className="card-img-top" alt="fake" />
-					<div className="card-body d-flex flex-column align-content-stretch flex-wrap ">
-						<h6 className="card-title">{dato["properties"].title}</h6>
-						<p className="card-text">{dato["properties"].opening_crawl.slice(0,40)}....</p>
-						<div className="d-flex d-flex justify-content-between">
-							<button className="btn btn-primary"><i className="far fa-heart"></i></button>
-							<button className="btn btn-primary">Ver ficha</button>
+		<div class="container-fluid ">
+			<div class="row d-flex">
+				{datosMostrar.map((dato) =>
+					<div className="card m-3 p-0 d-inline-flex anchoFijo" key={dato.uid} >
+						<img src="https://via.placeholder.com/250" className="d-inline-flex" alt="fake" />
+						<div className="card-body d-flex flex-column align-content-stretch flex-wrap ">
+							<h6 className="card-title">{dato["properties"].title}</h6>
+							<p className="card-text">{dato["properties"].opening_crawl.slice(0,40)}....</p>
+							<div className="d-flex d-flex justify-content-between">
+								<button className="btn btn-primary"><i className="far fa-heart"></i></button>
+								<button className="btn btn-primary">Ver ficha</button>
+							</div>
+							
 						</div>
-						
 					</div>
-				</div>
-            )
+				)}
+			</div>
+		</div>
 	);
 };
 
