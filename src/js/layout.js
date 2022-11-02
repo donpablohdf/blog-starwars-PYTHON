@@ -6,9 +6,10 @@ import { Home } from "./views/home";
 import { Demo } from "./views/demo";
 import { CardDetail } from "./views/CardDetail";
 import injectContext from "./services/appContext";
+import { DatosHome } from "./views/DatosHome";
 
 import { Navbar } from "./component/Navbar";
-import { Footer } from "./component/footer";
+import { LeftSideBar } from "./views/LeftSideBar";
 
 const Layout = () => {
 	// const basename se usa cuando su proyecto se publica en un subdirectorio y no en la raíz del dominio
@@ -17,19 +18,23 @@ const Layout = () => {
 	const basename = process.env.BASENAME || "BASENAME=/";
 
 	return (
-		<div>
+		<>
 			<BrowserRouter basename={basename}>
 				<ScrollToTop>
+					
 					<Navbar />
-					<Routes>
-						<Route  path="/" element={<Home/>}/>
-						<Route  path="/demo" element={<Demo />} />
-						<Route  path="/detail/:theid" element={<CardDetail />} />
-					</Routes>
-					<Footer />
+					<div className="d-flex">
+						<LeftSideBar />
+						<Routes>
+							<Route path="/" element={<Home />} /> 
+							<Route path="/DatosHome/:elID" element={<DatosHome />} />
+							<Route path="/demo" element={<Demo />} />
+							<Route path="/detail/:theid" element={<CardDetail />} />
+						</Routes>
+					</div>
 				</ScrollToTop>
 			</BrowserRouter>
-		</div>
+		</>
 	);
 };
 
