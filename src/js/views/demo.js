@@ -10,6 +10,7 @@ export const Demo = () => {
 
 	return (
 		<div className="container">
+			<img className="mt-3 position-absolute top-50 start-50 translate-middle img-fluid opacity-25" src="https://logos-download.com/wp-content/uploads/2016/09/Star_Wars_logo-1.png" height="340"/>	
 			<ul className="list-group">
 				<li className="list-group-item d-flex justify-content-between">Recorre el array store.demo que está en flux.js</li>
 				{store.demo.map((item, index) => {
