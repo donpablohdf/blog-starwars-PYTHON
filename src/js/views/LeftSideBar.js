@@ -7,7 +7,7 @@ export const LeftSideBar = () => {
 	const { sections, actions } = useContext(Context);
 	const secciones = Object.keys(sections[0].result)
 	return(
-		<div>
+		<div className="me-2 sticky-left">
 			<div className="d-inline-flex shadow m-2" >
 				<ul className="dropdown-menu dropdown-menu-dark d-block position-static   shadow w-220px">
 					{
