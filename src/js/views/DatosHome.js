@@ -6,7 +6,7 @@ import "../../styles/DatosHome.css";
 
 export const DatosHome = props => {
 	const params = useParams();
-	const seccion = params.elID
+	const seccion = params.seccion
 	
 	const {store} = useContext(Context);
 	const {actions} = useContext(Context);
@@ -30,7 +30,6 @@ export const DatosHome = props => {
 
 			}
 		})
-		console.dir(objDatos);
 	break;
 
 	case 'people':
@@ -110,6 +109,7 @@ export const DatosHome = props => {
 		console.log(`No existe la seccion`);
 	}
 	return (
+		<>
 		<div className="container-fluid ">
 			<div className="row d-flex">
 				{objDatos.map((dato) =>
@@ -128,6 +128,7 @@ export const DatosHome = props => {
 				)}
 			</div>
 		</div>
+		</>
 	)
 }
 

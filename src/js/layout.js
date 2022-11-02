@@ -27,7 +27,7 @@ const Layout = () => {
 						<LeftSideBar />
 						<Routes>
 							<Route path="/" element={<Home />} /> 
-							<Route path="/DatosHome/:elID" element={<DatosHome />} />
+							<Route exact path="/datoshome/:seccion" element={<DatosHome />} />
 							<Route path="/demo" element={<Demo />} />
 							<Route path="/detail/:theid" element={<CardDetail />} />
 						</Routes>

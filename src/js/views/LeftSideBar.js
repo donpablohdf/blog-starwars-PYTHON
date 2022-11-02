@@ -5,7 +5,8 @@ import { Context } from "../services/appContext";
 
 export const LeftSideBar = () => {
 	const { store } = useContext(Context);
-	const itemsMenu = Object.keys(store.sections.result)
+	const itemsMenu =Object.keys(store.sections.result)
+
 	
 	return(
 		<div className="me-2 ">
@@ -17,7 +18,7 @@ export const LeftSideBar = () => {
 						(opcion, index) => 
 					<li key={index}>
 						<Link className="dropdown-item d-flex gap-2 align-items-end p-3" 
-						to={"/DatosHome/" + opcion}>{opcion.toUpperCase()}</Link>
+						to={"/datoshome/" + opcion}>{opcion.toUpperCase()}</Link>
 					</li>
 					)
 					}

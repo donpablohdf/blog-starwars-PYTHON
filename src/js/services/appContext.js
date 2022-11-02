@@ -23,24 +23,11 @@ const injectContext = PassedComponent => {
 		);
 
 		useEffect(() => {
-			//fetch().then().then(data => setStore({ "foo": data.bar }))
-			// * ¡EDITA ESTO!
-			// * Esta función es el equivalente a "window.onLoad", solo se ejecuta una vez durante toda la vida útil de la aplicación
-			// * debe hacer sus solicitudes de ajax o buscar solicitudes de API aquí. No use setState() para guardar datos en el
-			// * almacenar, en lugar de usar acciones, como esta:
-			// *
-			// * state.actions.loadSomeData(); <---- llamando a esta función desde las acciones flux.js
-			// *
-			// **/
-			/**
-			 * EDIT THIS!
-			 * This function is the equivalent to "window.onLoad", it only runs once on the entire application lifetime
-			 * you should do your ajax requests or fetch api requests here. Do not use setState() to save data in the
-			 * store, instead use actions, like this:
-			 *
-			 * state.actions.loadSomeData(); <---- calling this function from the flux.js actions
-			 *
-			 **/
+			//Debe hacer sus solicitudes  de API aquí. No use setState() para guardar datos en "store" en su lugar usar funciones, como esta:
+			// * state.actions.llamadaGET()
+			// que se encuentran en el archivo 
+			state.actions.llamadaGET('https://www.swapi.tech/api/', 'sections')
+			
 		}, []);
 
 		// El valor inicial para el contexto ya no es nulo, sino el estado (state) actual de este componente ,

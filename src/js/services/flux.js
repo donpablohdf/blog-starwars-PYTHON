@@ -19,10 +19,6 @@ const getState = ({ getStore, getActions, setStore }) => {
 				"result": {
 					"films": "https://www.swapi.tech/api/films",
 					"people": "https://www.swapi.tech/api/people",
-					"planets": "https://www.swapi.tech/api/planets",
-					"species": "https://www.swapi.tech/api/species",
-					"starships": "https://www.swapi.tech/api/starships",
-					"vehicles": "https://www.swapi.tech/api/vehicles"
 				}
 			},
 			films : {
@@ -861,25 +857,20 @@ const getState = ({ getStore, getActions, setStore }) => {
 			},
 
 		},
-		
-		
 		actions: {
 			// Use getActions para llamar a una función dentro de una función
 			exampleFunction: () => {
 				getActions().changeColor(0, "green");
 			},
 			loadSomeData: (url, destino) => {
-
-				console.log("donPablo - url", url)
-				
+/***** FETCH *********************************************************/
 				const opcionesGET = { method: 'GET', redirect: 'follow' }
 				// para meter los datos de la API
 				fetch(url, opcionesGET)
-				.then(response => response.text())
+				.then(response => response.json())
 				.then(result => {
-					setStore({ destino : result })
-
-					console.table("donPablo - result", result)
+					const llenar= destino
+					setStore({ llenar : result })
 				}
 				)
 				.catch(error => console.log('error', error));
@@ -899,7 +890,9 @@ const getState = ({ getStore, getActions, setStore }) => {
 				//reset the global store
 				setStore({ demo: demo });
 			},
-			llamadaGET: (url) => {getActions().loadSomeData(url, destino)}
+			llamadaGET: (url, destino) => {
+				getActions().loadSomeData(url,destino)
+			}
 		},
 		favorites: {},
 		variables: {
