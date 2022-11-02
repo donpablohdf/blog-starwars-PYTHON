@@ -1,21 +1,23 @@
-import React, { useContext } from "react";
+import React, { useState, useEffect, useContext } from "react";
 import { Link } from "react-router-dom";
 import { Context } from "../services/appContext";
 
 
 export const LeftSideBar = () => {
-	const { sections, actions } = useContext(Context);
-	const secciones = Object.keys(sections[0].result)
+	const { store } = useContext(Context);
+	const itemsMenu = Object.keys(store.sections.result)
+	
 	return(
 		<div className="me-2 ">
 			<div className="d-inline-flex shadow m-2" >
 				<ul className="dropdown-menu dropdown-menu-dark d-block position-static   shadow w-220px">
 					{
-					secciones.map
+					itemsMenu.map
 					(
-						(seccion, index) => 
+						(opcion, index) => 
 					<li key={index}>
-						<Link className="dropdown-item d-flex gap-2 align-items-end p-3" to={"/DatosHome/" + seccion}>{seccion.toUpperCase()}</Link>
+						<Link className="dropdown-item d-flex gap-2 align-items-end p-3" 
+						to={"/DatosHome/" + opcion}>{opcion.toUpperCase()}</Link>
 					</li>
 					)
 					}

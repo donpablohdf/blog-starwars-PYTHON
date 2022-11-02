@@ -4,7 +4,7 @@ import { Link, useParams } from "react-router-dom";
 import { Context } from "../services/appContext";
 
 export const CardDetail = props => {
-	const { store, actions } = useContext(Context);
+	const { store } = useContext(Context);
 	const params = useParams();
 	return (
 		<div className="jumbotron">
