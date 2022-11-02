@@ -13,12 +13,17 @@ export const DatosHome = props => {
 	let datosMostrar
 	let objDatos =[]
 	let newData = {}
-	let descripcion=""
+	let descripcion="Hay que sacarla"
 
-	switch (seccion) {
+	useEffect(() => { // actions son las funciones creadas en flux.js
+		actions.llamadaGET("https://www.swapi.tech/api/"+seccion,seccion)
+		if(seccion!=="films"){
 
-	case 'films':
-		datosMostrar= store.films["result"]
+		}
+	}, [seccion])
+
+	if (seccion==="films") {
+		datosMostrar= store[seccion].result
 		datosMostrar.map((dato) =>{
 			{ 
 				newData= {
@@ -30,12 +35,9 @@ export const DatosHome = props => {
 
 			}
 		})
-	break;
-
-	case 'people':
-		const gente = store.people["results"]
-
-		gente.map((dato) =>
+	}else if (seccion!=""){
+		datosMostrar= store[seccion].results	
+		datosMostrar.map((dato) =>
 			{
 				{ 
 					
@@ -46,68 +48,8 @@ export const DatosHome = props => {
 			}
 		)
 
-	break;
-	case 'planets':
-		const planetas = store.planets["results"]
-
-		planetas.map((dato) =>
-			{
-				{ 
-					
-					newData= { uid: dato.uid,title: dato.name, desc: descripcion}
-					objDatos.push(newData)
-					
-				}
-			}
-		)
-
-	break;
-	case 'species':
-		const especies = store.species["results"]
-
-		especies.map((dato) =>
-			{
-				{ 
-					
-					newData= { uid: dato.uid,title: dato.name, desc: descripcion}
-					objDatos.push(newData)
-					
-				}
-			}
-		)
-
-	break;
-	case 'starships':
-		const naves = store.starships["results"]
-		naves.map((dato) =>
-			{
-				{ 
-					
-					newData= { uid: dato.uid,title: dato.name, desc: descripcion}
-					objDatos.push(newData)
-					
-				}
-			}
-		)
-
-	break;
-	case 'vehicles':
-		const vehiculos = store.vehicles["results"]
-		vehiculos.map((dato) =>
-			{
-				{ 
-					
-					newData= { uid: dato.uid,title: dato.name, desc: descripcion}
-					objDatos.push(newData)
-					
-				}
-			}
-		)
-
-	break;
-	default:
-		console.log(`No existe la seccion`);
 	}
+
 	return (
 		<>
 		<div className="container-fluid ">
