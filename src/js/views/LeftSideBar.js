@@ -28,7 +28,7 @@ export const LeftSideBar = () => {
 	console.log("------------------------------------------")
 	console.table(store)
 
-	// const itemsMenu =Object.keys(store.sections.result)
+	const itemsMenu =Object.keys(store.sections.result)
 
 	return(
 		<div className="me-2 ">
