@@ -1,4 +1,4 @@
-const getState = ({ getStore, getActions, setStore }) => {
+const getState = ({ getStore, getActions, setStore, newInStore }) => {
 	return {
 		store: {
 			demo: [
@@ -13,7 +13,6 @@ const getState = ({ getStore, getActions, setStore }) => {
 					initial: "white"
 				}
 			],
-			tmp_desc:{},
 			sections: {
 				"message": "ok",
 				"result": {
@@ -21,7 +20,7 @@ const getState = ({ getStore, getActions, setStore }) => {
 				}
 			},
 			films : {
-				
+				"message": "NO",
 				"result": [
 					{
 						"properties": {							
@@ -75,6 +74,10 @@ const getState = ({ getStore, getActions, setStore }) => {
 					},
 				]
 			},
+			cargados: {
+				
+	
+			}
 
 		},
 		actions: {
@@ -89,22 +92,20 @@ const getState = ({ getStore, getActions, setStore }) => {
 					const opcionesGET = { method: 'GET', redirect: 'follow' }
 					const response = await fetch(url, opcionesGET)
 					if(!response.ok){
-						throw new getActions().networkError()
+						throw "No hay response en el GET de " +destino
 					}
 					const data = await response.json()
 
 					let llenar= {}
 					llenar[destino] = data
-
 					setStore(llenar)
 
 				} catch (error){
-					throw error
+					throw "Falló el GET " + error
 				}
 									
 				
 			},
-			networkError: () =>{ console.log ("errorFetch")},
 			changeColor: (index, color) => { //ejemplo de función
 				//get the store
 				const datosStore = getStore();
@@ -118,14 +119,38 @@ const getState = ({ getStore, getActions, setStore }) => {
 				//reset the global store
 				setStore({ demo: demo });
 			},
-			llamadaGET: (url, destino) => {
-				getActions().loadSomeData(url,destino)
+
+			construirObjeto:  (objeto) => {
+				const datosStore = getStore();
+				if(datosStore[objeto]){
+					console.log("SI existe el objeto "+ objeto +" en el store")
+					return true
+				}else{ //construir el objeto en store
+					console.log("NO existe el objeto "+ objeto +" en el store. CREAR")
+					newInStore(objeto)
+					
+				}
+
+			},
+			guardaCargado: (index, color) => { //ejemplo de función
+				//get the store
+				const datosStore = getStore();
+
+				// map a store.demo para buscar el índice respectivo y cambiar su color
+				const demo = datosStore.demo.map((elm, i) => {
+					if (i === index) elm.background = color;
+					return elm;
+				});
+
+				//reset the global store
+				setStore({ demo: demo });
+			},
+			llamadaGET:  (url, destino) => {
+				//si ya se encuentra cargada, no ejecutar loadSomeData
+				 getActions().loadSomeData(url,destino)
 			}
 		},
-		variables: {
-			urlHost: location.protocol + '//' + location.host + '/',
-
-		}
+		
 	};
 };
 

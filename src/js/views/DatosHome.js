@@ -14,13 +14,11 @@ export const DatosHome = props => {
 	let objDatos =[]
 	let newData = {}
 	let descripcion="Hay que sacarla"
-
-	useEffect(() => { // actions son las funciones creadas en flux.js
-		actions.llamadaGET("https://www.swapi.tech/api/"+seccion,seccion)
-		if(seccion!=="films"){
-
-		}
-	}, [seccion])
+	
+	// useEffect(() => { // actions son las funciones creadas en flux.js
+	// 	actions.llamadaGET("https://www.swapi.tech/api/"+seccion,seccion)
+		
+	// }, [])
 
 	if (seccion==="films") {
 		datosMostrar= store[seccion].result

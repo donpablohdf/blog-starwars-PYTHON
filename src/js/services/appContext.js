@@ -18,6 +18,13 @@ const injectContext = PassedComponent => {
 					setState({
 						store: Object.assign(state.store, updatedStore),
 						actions: { ...state.actions }
+					}),
+				newInStore: objeto =>
+				
+					setState({
+						
+						store: state.store[objeto]  = new Object() ,
+						actions: { ...state.actions }
 					})
 			})
 		);
@@ -27,13 +34,7 @@ const injectContext = PassedComponent => {
 			// * state.actions.llamadaGET()
 			// que se encuentran en el archivo 
 			state.actions.llamadaGET('https://www.swapi.tech/api/', 'sections')
-			// state.actions.llamadaGET('https://www.swapi.tech/api/films', 'films')
-			// state.actions.llamadaGET('https://www.swapi.tech/api/people', 'people')
-			// state.actions.llamadaGET('https://www.swapi.tech/api/planets', 'planets')
-			// state.actions.llamadaGET('https://www.swapi.tech/api/species', 'species')
-			// state.actions.llamadaGET('https://www.swapi.tech/api/starships', 'starships')
-			// state.actions.llamadaGET('https://www.swapi.tech/api/vehicles', 'films')
-			
+						
 		}, []);
 
 		// El valor inicial para el contexto ya no es nulo, sino el estado (state) actual de este componente ,
