@@ -21,7 +21,6 @@ const Layout = () => {
 		<>
 			<BrowserRouter basename={basename}>
 				<ScrollToTop>
-					
 					<Navbar />
 					<div className="d-flex">
 						<LeftSideBar />
@@ -30,8 +29,12 @@ const Layout = () => {
 							<Route exact path="/datoshome/:seccion" element={<DatosHome />} />
 							<Route path="/demo" element={<Demo />} />
 							<Route path="/detail/:theid" element={<CardDetail />} />
+							<Route />
+							
+							
 						</Routes>
 					</div>
+					
 				</ScrollToTop>
 			</BrowserRouter>
 		</>
