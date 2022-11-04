@@ -90,15 +90,15 @@ const getState = ({ getStore, getActions, setStore, newInStore }) => {
 				// para meter los datos de la API
 					const opcionesGET = { method: 'GET', redirect: 'follow' }
 					const response =  await fetch(url, opcionesGET)
-					// if(!response.ok){
-					// 	return "No hay response en el GET de " +destino
-					// }
-					const data =  response.json()
-					let llenar= {}
-					llenar[destino] = data
-					setStore(llenar)
-					
-					return data
+					if(!response.ok){
+						return "No hay response en el GET de " +destino
+					}else{
+						const data =  response.json()
+						let llenar= {}
+						llenar[destino] = data
+						setStore(llenar)
+						return data
+					}
 			},
 			changeColor: (index, color) => { //ejemplo de función
 				//get the store
@@ -114,15 +114,35 @@ const getState = ({ getStore, getActions, setStore, newInStore }) => {
 				setStore({ demo: demo });
 			},
 
-			construirObjeto:  (objeto) => {
+			construirObjeto:  (url, objeto) => {
 				const datosStore = getStore();
-				if(datosStore[objeto]){
-					console.log("SI existe el objeto "+ objeto +" en el store")
-					return true
-				}else{ //construir el objeto en store
-					console.log("NO existe el objeto "+ objeto +" en el store. CREAR")
-					newInStore(objeto)
+				if(!Object.prototype.hasOwnProperty.call(datosStore, objeto)){
+
+				// 	console.log("SI existe el objeto "+ objeto +" en el store")
+				// 	//devuelvo el objeto
+				// 	return datosStore[objeto]
 					
+				// }else{ //construir el objeto en store
+					
+					const traeDatos = () => {
+						return getActions().traeDatosAPI(url, objeto)
+					}
+					
+					datosStore[objeto] = new Object()
+					const cumplePromesa = () => {
+						return new Promise((resolve, reject) => {
+							resolve(traeDatos()) // prometo que traigo datos del obj
+						})
+					}
+					cumplePromesa().then((datos) => {
+						setStore({ [objeto]: datos }) // la promesa se cumple y muestro los datos
+						return datos// tengo que meter los datos recibidos en un useState del componete que los recibe para poder renderizarlo en el return
+						
+					}
+						)
+					
+				}else{
+					return datosStore[objeto]
 				}
 
 			},
@@ -139,11 +159,6 @@ const getState = ({ getStore, getActions, setStore, newInStore }) => {
 				//reset the global store
 				setStore({ demo: demo });
 			},
-			llamadaGET:  (url, destino) => {
-				//si ya se encuentra cargada, no ejecutar loadSomeData
-				
-				getActions().loadSomeData(url,destino)
-			}
 		},
 		
 	};

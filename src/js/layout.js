@@ -9,7 +9,7 @@ import injectContext from "./services/appContext";
 import { DatosHome } from "./views/DatosHome";
 
 import { Navbar } from "./component/Navbar";
-import { LeftSideBar } from "./views/LeftSideBar";
+import { LeftSideBar } from "./views/leftSideBar";
 
 const Layout = () => {
 	// const basename se usa cuando su proyecto se publica en un subdirectorio y no en la raíz del dominio
@@ -20,13 +20,13 @@ const Layout = () => {
 	return (
 		<>
 			<BrowserRouter basename={basename}>
-				<ScrollToTop>
+				{/* <ScrollToTop> */}
 					<Navbar />
 					<div className="d-flex">
 						<LeftSideBar />
 						<Routes>
 							<Route path="/" element={<Home />} /> 
-							<Route exact path="/datoshome/:seccion" element={<DatosHome />} />
+							{/* <Route exact path="/datoshome/:seccion" element={<DatosHome />} /> */}
 							<Route path="/demo" element={<Demo />} />
 							<Route path="/detail/:theid" element={<CardDetail />} />
 							<Route />
@@ -35,7 +35,7 @@ const Layout = () => {
 						</Routes>
 					</div>
 					
-				</ScrollToTop>
+				{/* </ScrollToTop> */}
 			</BrowserRouter>
 		</>
 	);

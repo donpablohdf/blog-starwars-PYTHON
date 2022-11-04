@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useContext } from "react";
+import React from "react";
 import { Link } from "react-router-dom";
 import { Context } from "../services/appContext";
 import logo from "/src/img/logoStartWars.png"
