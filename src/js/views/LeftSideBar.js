@@ -5,68 +5,50 @@ import { Context } from "../services/appContext";
 
 export const LeftSideBar = () => {
 	const { store, actions } = useContext(Context);
-
 	//saber si existe el objeto sections en store y si no crearlo 
-
 	//llamando a la funcion actions.construirObjeto(objeto)
-
-	// try {
-	// 	actions.construirObjeto("sections")
-	// }
-	// catch {
-	// 	console.log("no se ha podido crear el objeto sections")
-	// 	// const itemsMenu =Object.keys(store.sections.result)
-	// }
-	// finally {
-	// useEffect(() => {
-	// 	actions.llamadaGET('https://www.swapi.tech/api/', 'sections')
-
-	// }, [])
-	
-	//store["hola"]  = new Object()
-	
-	if(!store["sections"]){
-		//console.log("NO existe el objeto "+ objeto +" en el store")
-		new Promise(function(resolve, reject) {
-			resolve(store["sections"] = new Object())
-		}).then(function(value) {
-			console.log(value);
-			actions.llamadaGET('https://www.swapi.tech/api/', 'sections')
-		}, function(reason) {
-			console.log(reason); // Error!
-		}).then( () =>{
-			const itemsMenu =Object.keys(store.sections.result)
-			return itemsMenu
-			}
-		)
+	const creaDatos = (data) => {
+		return Object.keys(data.result)
 		
-
-		//actions.llamadaGET('https://www.swapi.tech/api/', 'sections')
 	}
 	
+	useEffect(() => {
+		// Pido a este el favor
+		const traeDatos = () => {
+			return actions.traeDatosAPI('https://www.swapi.tech/api/', 'sections')
+		}
+		
+			store["sections"] = new Object()
+			const cumplePromesa = () => {
+				return new Promise((resolve, reject) => {
+					resolve(traeDatos()) //le prometo que traigo datos del obj
+				})
+			}
+		cumplePromesa().then((datos) => {
+			const mete = Object.keys(datos)
+			return(
+				<div className="me-2 ">
+					<div className="d-inline-flex shadow m-2" >{console.log(mete)}
+						<ul className="dropdown-menu dropdown-menu-dark d-block position-static   shadow w-220px">
+							{
+							mete.map
+							(
+								(opcion, index) => 
+							<li key={index}>
+								<Link className="dropdown-item d-flex gap-2 align-items-end p-3" 
+								to={"/datoshome/" + opcion}>{opcion}</Link>
+							</li>
+							)
+							}
+						</ul>
+					</div>
+				</div>
+		)
+		}
+			)
+		// NO BORRAR	// return () => { datos }
+	}, [store])
 
-	console.table(store)
 	
-
-	
-
-	return(
-		<div className="me-2 ">
-			<div className="d-inline-flex shadow m-2" >
-				<ul className="dropdown-menu dropdown-menu-dark d-block position-static   shadow w-220px">
-					{
-					itemsMenu.map
-					(
-						(opcion, index) => 
-					<li key={index}>
-						<Link className="dropdown-item d-flex gap-2 align-items-end p-3" 
-						to={"/datoshome/" + opcion}>{opcion.toUpperCase()}</Link>
-					</li>
-					)
-					}
-				</ul>
-			</div>
-		</div>
-	)
 
 };

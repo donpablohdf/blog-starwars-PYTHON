@@ -86,25 +86,19 @@ const getState = ({ getStore, getActions, setStore, newInStore }) => {
 				getActions().changeColor(0, "green");
 			},
 			/***** FETCH *********************************************************/
-			loadSomeData: async (url, destino) => {
+			traeDatosAPI: async (url, destino) => {
 				// para meter los datos de la API
-				try{
 					const opcionesGET = { method: 'GET', redirect: 'follow' }
-					const response = await fetch(url, opcionesGET)
-					if(!response.ok){
-						throw "No hay response en el GET de " +destino
-					}
-					const data = await response.json()
-
+					const response =  await fetch(url, opcionesGET)
+					// if(!response.ok){
+					// 	return "No hay response en el GET de " +destino
+					// }
+					const data =  response.json()
 					let llenar= {}
 					llenar[destino] = data
 					setStore(llenar)
-
-				} catch (error){
-					throw "Falló el GET " + error
-				}
-									
-				
+					
+					return data
 			},
 			changeColor: (index, color) => { //ejemplo de función
 				//get the store
@@ -147,7 +141,8 @@ const getState = ({ getStore, getActions, setStore, newInStore }) => {
 			},
 			llamadaGET:  (url, destino) => {
 				//si ya se encuentra cargada, no ejecutar loadSomeData
-				 getActions().loadSomeData(url,destino)
+				
+				getActions().loadSomeData(url,destino)
 			}
 		},
 		
