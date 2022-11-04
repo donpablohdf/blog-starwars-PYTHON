@@ -8,7 +8,6 @@ export const LeftSideBar = () => {
 
 	//saber si existe el objeto sections en store y si no crearlo 
 
-	console.table(store)
 	//llamando a la funcion actions.construirObjeto(objeto)
 
 	// try {
@@ -23,12 +22,33 @@ export const LeftSideBar = () => {
 	// 	actions.llamadaGET('https://www.swapi.tech/api/', 'sections')
 
 	// }, [])
+	
+	//store["hola"]  = new Object()
+	
+	if(!store["sections"]){
+		//console.log("NO existe el objeto "+ objeto +" en el store")
+		new Promise(function(resolve, reject) {
+			resolve(store["sections"] = new Object())
+		}).then(function(value) {
+			console.log(value);
+			actions.llamadaGET('https://www.swapi.tech/api/', 'sections')
+		}, function(reason) {
+			console.log(reason); // Error!
+		}).then( () =>{
+			const itemsMenu =Object.keys(store.sections.result)
+			return itemsMenu
+			}
+		)
+		
 
+		//actions.llamadaGET('https://www.swapi.tech/api/', 'sections')
+	}
+	
 
-	console.log("------------------------------------------")
 	console.table(store)
+	
 
-	const itemsMenu =Object.keys(store.sections.result)
+	
 
 	return(
 		<div className="me-2 ">

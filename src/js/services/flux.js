@@ -13,12 +13,12 @@ const getState = ({ getStore, getActions, setStore, newInStore }) => {
 					initial: "white"
 				}
 			],
-			sections: {
-				"message": "ok",
-				"result": {
-					"Cargando...": "",
-				}
-			},
+			// sections: {
+			// 	"message": "ok",
+			// 	"result": {
+			// 		"Cargando...": "",
+			// 	}
+			// },
 			films : {
 				"message": "NO",
 				"result": [

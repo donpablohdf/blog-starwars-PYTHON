@@ -33,7 +33,7 @@ const injectContext = PassedComponent => {
 			//Debe hacer sus solicitudes  de API aquí. No use setState() para guardar datos en "store" en su lugar usar funciones, como esta:
 			// * state.actions.llamadaGET()
 			// que se encuentran en el archivo 
-			state.actions.llamadaGET('https://www.swapi.tech/api/', 'sections')
+			//state.actions.llamadaGET('https://www.swapi.tech/api/', 'sections')
 						
 		}, []);
 
