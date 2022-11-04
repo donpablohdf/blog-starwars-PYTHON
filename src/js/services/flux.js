@@ -116,7 +116,7 @@ const getState = ({ getStore, getActions, setStore, newInStore }) => {
 
 			construirObjeto:  (url, objeto) => {
 				const datosStore = getStore();
-				if(!Object.prototype.hasOwnProperty.call(datosStore, objeto)){
+				if(!datosStore.hasOwnProperty(datosStore, objeto)){
 
 				// 	console.log("SI existe el objeto "+ objeto +" en el store")
 				// 	//devuelvo el objeto
