@@ -8,30 +8,14 @@ export const LeftSideBar = () => {
 	
 	//saber si existe el objeto sections en store y si no crearlo 
 	//llamando a la funcion actions.construirObjeto(objeto)
-		const [valor, setValor]=useState(["Cargando"])
+	const [itemsMenu, setItemsMenu]=useState(["Cargando"])
 	useEffect( () => {
-		console.log(store)
+		//console.log(actions)
 		//Pido a éste una promesa
-		const datosSecciones = () => {
-			return actions.construirObjeto('https://www.swapi.tech/api/', 'sections')
-		}
 		
-		const promesaDeDatos = () => {
-			return new Promise((resolve, reject) => {
-				resolve(datosSecciones()) // prometo que traigo datos del obj
-			})
-		}
-		promesaDeDatos().then((datos) => { // la promesa se cumple y muestro los datos
-			
-			const datosLocal= store.sections
-
-			console.log(datos)
-			//const itemsMenu = Object.keys(datos.result)
-			//setValor(store.sections) // tengo que meter los datos recibidos en una variable externa a la promesa para poder renderizarla
-			
-		}
-			)
+		setItemsMenu(actions.construirObjeto('https://www.swapi.tech/api/', 'sections'))
 		
+		console.log(actions.construirObjeto('https://www.swapi.tech/api/', 'sections'))
 	}, [])
 
 	return(
@@ -39,7 +23,7 @@ export const LeftSideBar = () => {
 			<div className="d-inline-flex shadow m-2" >
 				<ul className="dropdown-menu dropdown-menu-dark d-block position-static shadow w-220px">
 					{
-					valor?.map
+					itemsMenu?.map
 					(
 						
 						(opcion, index) => 

@@ -13,71 +13,62 @@ const getState = ({ getStore, getActions, setStore, newInStore }) => {
 					initial: "white"
 				}
 			],
-			// sections: {
-			// 	"message": "ok",
-			// 	"result": {
-			// 		"Cargando...": "",
-			// 	}
+			cargados: {},
+			// films : {
+			// 	"message": "NO",
+			// 	"result": [
+			// 		{
+			// 			"properties": {							
+			// 				"title": "Cargando...",
+			// 				"opening_crawl":"Cargando"					
+			// 			},
+			// 			"description": "",
+			// 			"_id": "",
+			// 			"uid": "1",
+			// 			"__v": 0
+			// 		},
+			// 	]
 			// },
-			films : {
-				"message": "NO",
-				"result": [
-					{
-						"properties": {							
-							"title": "Cargando...",
-							"opening_crawl":"Cargando"					
-						},
-						"description": "",
-						"_id": "",
-						"uid": "1",
-						"__v": 0
-					},
-				]
-			},
-			people: {
-				"results": [
-					{
-						"uid": "1",
-						"name": "Cargando...",
-					},
-				]
-			},
-			planets:{
-				"results": [
-					{
-						"uid": "1",
-						"name": "Cargando...",
-					},
-				]
-			},
-			species: {
-				"results": [
-					{
-						"uid": "1",
-						"name": "Cargando...",
-					},
-				]
-			},
-			starships:{
-				"results": [
-					{
-						"uid": "1",
-						"name": "Cargando...",
-					},
-				]
-			},
-			vehicles:{
-				"results": [
-					{
-						"uid": "1",
-						"name": "Cargando...",
-					},
-				]
-			},
-			cargados: {
-				
-	
-			}
+			// people: {
+			// 	"results": [
+			// 		{
+			// 			"uid": "1",
+			// 			"name": "Cargando...",
+			// 		},
+			// 	]
+			// },
+			// planets:{
+			// 	"results": [
+			// 		{
+			// 			"uid": "1",
+			// 			"name": "Cargando...",
+			// 		},
+			// 	]
+			// },
+			// species: {
+			// 	"results": [
+			// 		{
+			// 			"uid": "1",
+			// 			"name": "Cargando...",
+			// 		},
+			// 	]
+			// },
+			// starships:{
+			// 	"results": [
+			// 		{
+			// 			"uid": "1",
+			// 			"name": "Cargando...",
+			// 		},
+			// 	]
+			// },
+			// vehicles:{
+			// 	"results": [
+			// 		{
+			// 			"uid": "1",
+			// 			"name": "Cargando...",
+			// 		},
+			// 	]
+			// },
 
 		},
 		actions: {
@@ -93,10 +84,10 @@ const getState = ({ getStore, getActions, setStore, newInStore }) => {
 					if(!response.ok){
 						return "No hay response en el GET de " +destino
 					}else{
-						const data =  response.json()
+						const data = await response.json()
 						let llenar= {}
 						llenar[destino] = data
-						setStore(llenar)
+						await setStore(llenar)
 						return data
 					}
 			},
@@ -116,26 +107,25 @@ const getState = ({ getStore, getActions, setStore, newInStore }) => {
 
 			construirObjeto:  (url, objeto) => {
 				const datosStore = getStore();
-				if(!datosStore.hasOwnProperty(datosStore, objeto)){
+				if(!datosStore.hasOwnProperty(objeto)){
 
-				// 	console.log("SI existe el objeto "+ objeto +" en el store")
-				// 	//devuelvo el objeto
-				// 	return datosStore[objeto]
-					
-				// }else{ //construir el objeto en store
+					console.log("NO existe el objeto "+ objeto +" en el store")
 					
 					const traeDatos = () => {
+						// para meter los datos de la API
+						
+						datosStore[objeto] = new Object()
 						return getActions().traeDatosAPI(url, objeto)
 					}
 					
-					datosStore[objeto] = new Object()
+					
 					const cumplePromesa = () => {
 						return new Promise((resolve, reject) => {
 							resolve(traeDatos()) // prometo que traigo datos del obj
 						})
 					}
 					cumplePromesa().then((datos) => {
-						setStore({ [objeto]: datos }) // la promesa se cumple y muestro los datos
+						//setStore({ [objeto]: datos }) // la promesa se cumple y muestro los datos
 						return datos// tengo que meter los datos recibidos en un useState del componete que los recibe para poder renderizarlo en el return
 						
 					}

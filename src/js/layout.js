@@ -4,12 +4,13 @@ import ScrollToTop from "./component/scrollToTop";
 
 import { Home } from "./views/home";
 import { Demo } from "./views/demo";
-import { CardDetail } from "./views/CardDetail";
+import { CardDetail } from "./views/cardDetail";
 import injectContext from "./services/appContext";
-import { DatosHome } from "./views/DatosHome";
+import { DatosHome } from "./views/datosHome";
 
 import { Navbar } from "./component/Navbar";
-import { LeftSideBar } from "./views/leftSideBar";
+import { LeftSideBar } from "./views/leftSideBar_vacio";
+// import { LeftSideBar } from "./views/leftSideBar";
 
 const Layout = () => {
 	// const basename se usa cuando su proyecto se publica en un subdirectorio y no en la raíz del dominio
@@ -26,9 +27,9 @@ const Layout = () => {
 						<LeftSideBar />
 						<Routes>
 							<Route path="/" element={<Home />} /> 
-							{/* <Route exact path="/datoshome/:seccion" element={<DatosHome />} /> */}
+							<Route exact path="/datoshome/:seccion" element={<DatosHome />} />
 							<Route path="/demo" element={<Demo />} />
-							<Route path="/detail/:theid" element={<CardDetail />} />
+							<Route path="/detail/:seccion/:elID" element={<CardDetail />} />
 							<Route />
 							
 							
