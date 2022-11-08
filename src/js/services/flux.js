@@ -1,74 +1,7 @@
 const getState = ({ getStore, getActions, setStore, newInStore }) => {
 	return {
 		store: {
-			demo: [
-				{
-					title: "PRIMER ELEMENTO en flux.js => store.demo",
-					background: "white",
-					initial: "white"
-				},
-				{
-					title: "SEGUNDO ELEMENTO en flux.js => store.demo",
-					background: "white",
-					initial: "white"
-				}
-			],
-			cargados: {},
-			// films : {
-			// 	"message": "NO",
-			// 	"result": [
-			// 		{
-			// 			"properties": {							
-			// 				"title": "Cargando...",
-			// 				"opening_crawl":"Cargando"					
-			// 			},
-			// 			"description": "",
-			// 			"_id": "",
-			// 			"uid": "1",
-			// 			"__v": 0
-			// 		},
-			// 	]
-			// },
-			// people: {
-			// 	"results": [
-			// 		{
-			// 			"uid": "1",
-			// 			"name": "Cargando...",
-			// 		},
-			// 	]
-			// },
-			// planets:{
-			// 	"results": [
-			// 		{
-			// 			"uid": "1",
-			// 			"name": "Cargando...",
-			// 		},
-			// 	]
-			// },
-			// species: {
-			// 	"results": [
-			// 		{
-			// 			"uid": "1",
-			// 			"name": "Cargando...",
-			// 		},
-			// 	]
-			// },
-			// starships:{
-			// 	"results": [
-			// 		{
-			// 			"uid": "1",
-			// 			"name": "Cargando...",
-			// 		},
-			// 	]
-			// },
-			// vehicles:{
-			// 	"results": [
-			// 		{
-			// 			"uid": "1",
-			// 			"name": "Cargando...",
-			// 		},
-			// 	]
-			// },
+			favoritos: {},
 
 		},
 		actions: {

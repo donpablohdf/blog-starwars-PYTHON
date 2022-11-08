@@ -3,13 +3,12 @@ import { BrowserRouter, Route, Routes } from "react-router-dom"; // version 6.4.
 import ScrollToTop from "./component/scrollToTop";
 
 import { Home } from "./views/home";
-import { Demo } from "./views/demo";
 import { CardDetail } from "./views/cardDetail";
 import injectContext from "./services/appContext";
 import { DatosHome } from "./views/datosHome";
 
 import { Navbar } from "./component/Navbar";
-import { LeftSideBar } from "./views/leftSideBar_vacio";
+import { LeftSideBar } from "./views/leftSideBar";
 // import { LeftSideBar } from "./views/leftSideBar";
 
 const Layout = () => {
@@ -28,7 +27,6 @@ const Layout = () => {
 						<Routes>
 							<Route path="/" element={<Home />} /> 
 							<Route exact path="/datoshome/:seccion" element={<DatosHome />} />
-							<Route path="/demo" element={<Demo />} />
 							<Route path="/detail/:seccion/:elID" element={<CardDetail />} />
 							<Route />
 							
