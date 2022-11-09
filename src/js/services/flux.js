@@ -1,8 +1,8 @@
 const getState = ({ getStore, getActions, setStore, newInStore }) => {
 	return {
 		store: {
-			favoritos: {},
-
+			favoritos: [{id:1, clase: "films", title:"A New Hope"}, {id:2, clase: "films", title:"The Empire Strikes Back"} ],
+			// favoritos: {},
 		},
 		actions: {
 			// Use getActions para llamar a una función dentro de una función de aquí. USa
@@ -24,41 +24,20 @@ const getState = ({ getStore, getActions, setStore, newInStore }) => {
 						return data
 					}
 			},
-			changeColor: (index, color) => { //ejemplo de función
-				//get the store
-				const datosStore = getStore();
-
-				// map a store.demo para buscar el índice respectivo y cambiar su color
-				const demo = datosStore.demo.map((elm, i) => {
-					if (i === index) elm.background = color;
-					return elm;
-				});
-
-				//reset the global store
-				setStore({ demo: demo });
-			},
 
 			construirObjeto:  (url, objeto) => {
 				const datosStore = getStore();
 				if(!datosStore.hasOwnProperty(objeto)){
-
 					console.log("NO existe el objeto "+ objeto +" en el store")
-					
-					const traeDatos = () => {
-						// para meter los datos de la API
-						
-						datosStore[objeto] = new Object()
-						return getActions().traeDatosAPI(url, objeto)
-					}
-					
-					
 					const cumplePromesa = () => {
 						return new Promise((resolve, reject) => {
-							resolve(traeDatos()) // prometo que traigo datos del obj
+							resolve(()=>{
+								//datosStore[objeto] = new Object() // creo el array en store
+								return getActions().traeDatosAPI(url, objeto) // prometo que traigo datos del obj
+							}) 
 						})
 					}
 					cumplePromesa().then((datos) => {
-						//setStore({ [objeto]: datos }) // la promesa se cumple y muestro los datos
 						return datos// tengo que meter los datos recibidos en un useState del componete que los recibe para poder renderizarlo en el return
 						
 					}
@@ -69,18 +48,11 @@ const getState = ({ getStore, getActions, setStore, newInStore }) => {
 				}
 
 			},
-			guardaCargado: (index, color) => { //ejemplo de función
-				//get the store
-				const datosStore = getStore();
+			addFavorite: () =>{
 
-				// map a store.demo para buscar el índice respectivo y cambiar su color
-				const demo = datosStore.demo.map((elm, i) => {
-					if (i === index) elm.background = color;
-					return elm;
-				});
-
-				//reset the global store
-				setStore({ demo: demo });
+			},
+			delFavorite: () =>{
+				
 			},
 		},
 		
