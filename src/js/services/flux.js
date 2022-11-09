@@ -48,7 +48,6 @@ const getState = ({ getStore, getActions, setStore }) => {
 			addFavorite: (secc, uid, atitle) => {
 				const store = getStore()
 				let esta = false
-				console.log(Object.keys(store.favoritos).length)
 				if (Object.keys(store.favoritos).length === 0) { esta = false } else {
 					store.favoritos.map((dato) => { if (dato.encuentra === secc + uid) { esta = true }})
 				}
@@ -63,6 +62,15 @@ const getState = ({ getStore, getActions, setStore }) => {
 				const result = store.favoritos.filter(dato => dato.encuentra !== index);
 				setStore({ favoritos: result })
 			},
+			esFavorite: (index) => {
+				const store = getStore()
+				let esta = false
+				if (Object.keys(store.favoritos).length === 0) { esta = false } else {
+					store.favoritos.map((dato) => { if (dato.encuentra === index) { esta = true }})
+				}
+				return esta
+			},
+
 		},
 
 	};
