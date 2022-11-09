@@ -2,7 +2,7 @@ import React, { useState, useEffect, useContext } from "react";
 import PropTypes from "prop-types";
 import { Link, useParams } from "react-router-dom";
 import { Context } from "../services/appContext";
-import "../../styles/DatosHome.css";
+import "../../styles/datosHome.css";
 
 export const DatosHome = props => {
 	const params = useParams();
@@ -93,21 +93,22 @@ export const DatosHome = props => {
 				setObjDatos(transDatos)
 			}		
 		}
-	}, [seccion])
+	}, [seccion, store.favoritos])
 
 
 	return (
 		<>
 		<div className="container-fluid ">
 			<div className="row d-flex">
-				{objDatos.map((dato) =>
-					<div className="card mt-2 me-3  p-0 d-inline-flex anchoFijo" key={dato.uid} >
+				{objDatos.map((dato, index) =>
+					<div className="card mt-2 me-3  p-0 d-inline-flex anchoFijo" key={index} >
 						<img src="https://via.placeholder.com/250" className="d-inline-flex" alt="fake" />
 						<div className="card-body d-flex flex-column align-content-stretch flex-wrap ">
 							<h6 className="card-title">{dato.title}</h6>
 							<p className="card-text altoFijo">{dato.desc}</p>
 							<div className="d-flex d-flex justify-content-between">
-								<button className="btn btn-primary"><i className="far fa-heart"></i></button>
+								
+								<button className="btn btn-primary" onClick={() =>actions.addFavorite(seccion, dato.uid, dato.title)}><i className="far fa-heart"></i></button>
 								<Link
 						to={"/detail/" + seccion+"/"+dato.uid}>
 								<button className="btn btn-primary">Ver ficha</button></Link>
