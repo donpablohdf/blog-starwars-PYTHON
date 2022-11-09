@@ -1,7 +1,6 @@
-#tooltip {
-    background-color: #333;
-    color: white;
-    padding: 5px 10px;
-    border-radius: 4px;
-    font-size: 13px;
+.anchoFijo{
+    width: 250px;
+}
+.btn-close-width{
+    width:0.5em;
 }

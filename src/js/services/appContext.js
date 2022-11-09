@@ -18,13 +18,6 @@ const injectContext = PassedComponent => {
 					setState({
 						store: Object.assign(state.store, updatedStore),
 						actions: { ...state.actions }
-					}),
-				newInStore: objeto =>
-				
-					setState({
-						
-						store: state.store[objeto]  = new Object() ,
-						actions: { ...state.actions }
 					})
 			})
 		);
