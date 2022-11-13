@@ -1,7 +1,6 @@
 const getState = ({ getStore, getActions, setStore }) => {
 	return {
 		store: {
-			// favoritos: [{ id: 1, clase: "films", title: "A New Hope", encuentra: "films1" }, { id: 2, clase: "films", title: "The Empire Strikes Back", encuentra: "films2" }],
 			favoritos: [],
 		},
 		actions: {
