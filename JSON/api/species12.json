@@ -1,0 +1,29 @@
+{
+    "message": "ok",
+    "result": {
+        "properties": {
+            "classification": "amphibian",
+            "designation": "sentient",
+            "average_height": "190",
+            "average_lifespan": "unknown",
+            "hair_colors": "none",
+            "skin_colors": "brown, green",
+            "eye_colors": "orange",
+            "homeworld": "https://www.swapi.tech/api/planets/12",
+            "language": "Gungan basic",
+            "people": [
+                "https://www.swapi.tech/api/people/36",
+                "https://www.swapi.tech/api/people/37",
+                "https://www.swapi.tech/api/people/38"
+            ],
+            "created": "2022-11-13T10:17:52.691Z",
+            "edited": "2022-11-13T10:17:52.691Z",
+            "name": "Gungan",
+            "url": "https://www.swapi.tech/api/species/12"
+        },
+        "description": "A sepcies within the Star Wars universe",
+        "_id": "5f63a135cf50d100047f9773",
+        "uid": "12",
+        "__v": 0
+    }
+}

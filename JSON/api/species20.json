@@ -1,0 +1,27 @@
+{
+    "message": "ok",
+    "result": {
+        "properties": {
+            "classification": "mammal",
+            "designation": "sentient",
+            "average_height": "200",
+            "average_lifespan": "unknown",
+            "hair_colors": "red, blond, black, white",
+            "skin_colors": "pale pink",
+            "eye_colors": "hazel",
+            "homeworld": "https://www.swapi.tech/api/planets/20",
+            "language": "Cerean",
+            "people": [
+                "https://www.swapi.tech/api/people/52"
+            ],
+            "created": "2022-11-13T10:17:52.691Z",
+            "edited": "2022-11-13T10:17:52.691Z",
+            "name": "Cerean",
+            "url": "https://www.swapi.tech/api/species/20"
+        },
+        "description": "A sepcies within the Star Wars universe",
+        "_id": "5f63a135cf50d100047f977b",
+        "uid": "20",
+        "__v": 0
+    }
+}

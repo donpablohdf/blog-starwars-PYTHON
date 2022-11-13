@@ -1,0 +1,27 @@
+{
+    "message": "ok",
+    "result": {
+        "properties": {
+            "classification": "unknown",
+            "designation": "sentient",
+            "average_height": "125",
+            "average_lifespan": "unknown",
+            "hair_colors": "none",
+            "skin_colors": "grey, yellow, purple",
+            "eye_colors": "black",
+            "homeworld": "https://www.swapi.tech/api/planets/18",
+            "language": "Xextese",
+            "people": [
+                "https://www.swapi.tech/api/people/49"
+            ],
+            "created": "2022-11-13T10:17:52.691Z",
+            "edited": "2022-11-13T10:17:52.691Z",
+            "name": "Xexto",
+            "url": "https://www.swapi.tech/api/species/18"
+        },
+        "description": "A sepcies within the Star Wars universe",
+        "_id": "5f63a135cf50d100047f9779",
+        "uid": "18",
+        "__v": 0
+    }
+}

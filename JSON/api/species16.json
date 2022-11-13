@@ -1,0 +1,27 @@
+{
+    "message": "ok",
+    "result": {
+        "properties": {
+            "classification": "reptile",
+            "designation": "sentient",
+            "average_height": "80",
+            "average_lifespan": "79",
+            "hair_colors": "none",
+            "skin_colors": "blue, gray",
+            "eye_colors": "unknown",
+            "homeworld": "https://www.swapi.tech/api/planets/16",
+            "language": "Aleena",
+            "people": [
+                "https://www.swapi.tech/api/people/47"
+            ],
+            "created": "2022-11-13T10:17:52.691Z",
+            "edited": "2022-11-13T10:17:52.691Z",
+            "name": "Aleena",
+            "url": "https://www.swapi.tech/api/species/16"
+        },
+        "description": "A sepcies within the Star Wars universe",
+        "_id": "5f63a135cf50d100047f9777",
+        "uid": "16",
+        "__v": 0
+    }
+}

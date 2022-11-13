@@ -1,0 +1,27 @@
+{
+    "message": "ok",
+    "result": {
+        "properties": {
+            "classification": "reptilian",
+            "designation": "sentient",
+            "average_height": "180",
+            "average_lifespan": "70",
+            "hair_colors": "none",
+            "skin_colors": "green, yellow",
+            "eye_colors": "yellow",
+            "homeworld": "https://www.swapi.tech/api/planets/30",
+            "language": "Clawdite",
+            "people": [
+                "https://www.swapi.tech/api/people/70"
+            ],
+            "created": "2022-11-13T10:17:52.691Z",
+            "edited": "2022-11-13T10:17:52.691Z",
+            "name": "Clawdite",
+            "url": "https://www.swapi.tech/api/species/30"
+        },
+        "description": "A sepcies within the Star Wars universe",
+        "_id": "5f63a135cf50d100047f9785",
+        "uid": "30",
+        "__v": 0
+    }
+}

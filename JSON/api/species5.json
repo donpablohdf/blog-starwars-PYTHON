@@ -1,0 +1,27 @@
+{
+    "message": "ok",
+    "result": {
+        "properties": {
+            "classification": "gastropod",
+            "designation": "sentient",
+            "average_height": "300",
+            "average_lifespan": "1000",
+            "hair_colors": "n/a",
+            "skin_colors": "green, brown, tan",
+            "eye_colors": "yellow, red",
+            "homeworld": "https://www.swapi.tech/api/planets/5",
+            "language": "Huttese",
+            "people": [
+                "https://www.swapi.tech/api/people/16"
+            ],
+            "created": "2022-11-13T10:17:52.691Z",
+            "edited": "2022-11-13T10:17:52.691Z",
+            "name": "Hutt",
+            "url": "https://www.swapi.tech/api/species/5"
+        },
+        "description": "A sepcies within the Star Wars universe",
+        "_id": "5f63a135cf50d100047f976c",
+        "uid": "5",
+        "__v": 0
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "message": "ok",
+    "result": {
+        "properties": {
+            "classification": "mammal",
+            "designation": "sentient",
+            "average_height": "190",
+            "average_lifespan": "100",
+            "hair_colors": "none",
+            "skin_colors": "grey, white",
+            "eye_colors": "black",
+            "homeworld": "https://www.swapi.tech/api/planets/34",
+            "language": "Muun",
+            "people": [
+                "https://www.swapi.tech/api/people/77"
+            ],
+            "created": "2022-11-13T10:17:52.691Z",
+            "edited": "2022-11-13T10:17:52.691Z",
+            "name": "Muun",
+            "url": "https://www.swapi.tech/api/species/34"
+        },
+        "description": "A sepcies within the Star Wars universe",
+        "_id": "5f63a135cf50d100047f9789",
+        "uid": "34",
+        "__v": 0
+    }
+}

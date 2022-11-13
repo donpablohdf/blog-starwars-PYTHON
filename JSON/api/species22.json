@@ -1,0 +1,28 @@
+{
+    "message": "ok",
+    "result": {
+        "properties": {
+            "classification": "mammal",
+            "designation": "sentient",
+            "average_height": "180",
+            "average_lifespan": "unknown",
+            "hair_colors": "black",
+            "skin_colors": "pale, brown, red, orange, yellow",
+            "eye_colors": "brown, orange",
+            "homeworld": "https://www.swapi.tech/api/planets/22",
+            "language": "Zabraki",
+            "people": [
+                "https://www.swapi.tech/api/people/44",
+                "https://www.swapi.tech/api/people/54"
+            ],
+            "created": "2022-11-13T10:17:52.691Z",
+            "edited": "2022-11-13T10:17:52.691Z",
+            "name": "Zabrak",
+            "url": "https://www.swapi.tech/api/species/22"
+        },
+        "description": "A sepcies within the Star Wars universe",
+        "_id": "5f63a135cf50d100047f977d",
+        "uid": "22",
+        "__v": 0
+    }
+}

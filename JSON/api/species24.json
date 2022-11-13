@@ -1,0 +1,27 @@
+{
+    "message": "ok",
+    "result": {
+        "properties": {
+            "classification": "unknown",
+            "designation": "sentient",
+            "average_height": "180",
+            "average_lifespan": "unknown",
+            "hair_colors": "none",
+            "skin_colors": "pink",
+            "eye_colors": "orange",
+            "homeworld": "https://www.swapi.tech/api/planets/24",
+            "language": "Iktotchese",
+            "people": [
+                "https://www.swapi.tech/api/people/56"
+            ],
+            "created": "2022-11-13T10:17:52.691Z",
+            "edited": "2022-11-13T10:17:52.691Z",
+            "name": "Iktotchi",
+            "url": "https://www.swapi.tech/api/species/24"
+        },
+        "description": "A sepcies within the Star Wars universe",
+        "_id": "5f63a135cf50d100047f977f",
+        "uid": "24",
+        "__v": 0
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "message": "ok",
+    "result": {
+        "properties": {
+            "classification": "reptile",
+            "designation": "sentient",
+            "average_height": "200",
+            "average_lifespan": "unknown",
+            "hair_colors": "none",
+            "skin_colors": "brown, green",
+            "eye_colors": "yellow, orange",
+            "homeworld": "https://www.swapi.tech/api/planets/7",
+            "language": "Dosh",
+            "people": [
+                "https://www.swapi.tech/api/people/24"
+            ],
+            "created": "2022-11-13T10:17:52.691Z",
+            "edited": "2022-11-13T10:17:52.691Z",
+            "name": "Trandoshan",
+            "url": "https://www.swapi.tech/api/species/7"
+        },
+        "description": "A sepcies within the Star Wars universe",
+        "_id": "5f63a135cf50d100047f976e",
+        "uid": "7",
+        "__v": 0
+    }
+}

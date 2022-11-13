@@ -1,0 +1,28 @@
+{
+    "message": "ok",
+    "result": {
+        "properties": {
+            "classification": "mammals",
+            "designation": "sentient",
+            "average_height": "200",
+            "average_lifespan": "unknown",
+            "hair_colors": "none",
+            "skin_colors": "orange, yellow, blue, green, pink, purple, tan",
+            "eye_colors": "blue, brown, orange, pink",
+            "homeworld": "https://www.swapi.tech/api/planets/15",
+            "language": "Twi'leki",
+            "people": [
+                "https://www.swapi.tech/api/people/45",
+                "https://www.swapi.tech/api/people/46"
+            ],
+            "created": "2022-11-13T10:17:52.691Z",
+            "edited": "2022-11-13T10:17:52.691Z",
+            "name": "Twi'lek",
+            "url": "https://www.swapi.tech/api/species/15"
+        },
+        "description": "A sepcies within the Star Wars universe",
+        "_id": "5f63a135cf50d100047f9776",
+        "uid": "15",
+        "__v": 0
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "message": "ok",
+    "result": {
+        "properties": {
+            "classification": "amphibian",
+            "designation": "sentient",
+            "average_height": "178",
+            "average_lifespan": "75",
+            "hair_colors": "none",
+            "skin_colors": "brown",
+            "eye_colors": "yellow",
+            "homeworld": "https://www.swapi.tech/api/planets/31",
+            "language": "besalisk",
+            "people": [
+                "https://www.swapi.tech/api/people/71"
+            ],
+            "created": "2022-11-13T10:17:52.691Z",
+            "edited": "2022-11-13T10:17:52.691Z",
+            "name": "Besalisk",
+            "url": "https://www.swapi.tech/api/species/31"
+        },
+        "description": "A sepcies within the Star Wars universe",
+        "_id": "5f63a135cf50d100047f9786",
+        "uid": "31",
+        "__v": 0
+    }
+}

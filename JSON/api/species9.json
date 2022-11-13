@@ -1,0 +1,27 @@
+{
+    "message": "ok",
+    "result": {
+        "properties": {
+            "classification": "mammal",
+            "designation": "sentient",
+            "average_height": "100",
+            "average_lifespan": "unknown",
+            "hair_colors": "white, brown, black",
+            "skin_colors": "brown",
+            "eye_colors": "orange, brown",
+            "homeworld": "https://www.swapi.tech/api/planets/9",
+            "language": "Ewokese",
+            "people": [
+                "https://www.swapi.tech/api/people/30"
+            ],
+            "created": "2022-11-13T10:17:52.691Z",
+            "edited": "2022-11-13T10:17:52.691Z",
+            "name": "Ewok",
+            "url": "https://www.swapi.tech/api/species/9"
+        },
+        "description": "A sepcies within the Star Wars universe",
+        "_id": "5f63a135cf50d100047f9770",
+        "uid": "9",
+        "__v": 0
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "message": "ok",
+    "result": {
+        "properties": {
+            "classification": "unknown",
+            "designation": "sentient",
+            "average_height": "180",
+            "average_lifespan": "70",
+            "hair_colors": "none",
+            "skin_colors": "peach, orange, red",
+            "eye_colors": "black, silver",
+            "homeworld": "https://www.swapi.tech/api/planets/26",
+            "language": "Kel Dor",
+            "people": [
+                "https://www.swapi.tech/api/people/58"
+            ],
+            "created": "2022-11-13T10:17:52.691Z",
+            "edited": "2022-11-13T10:17:52.691Z",
+            "name": "Kel Dor",
+            "url": "https://www.swapi.tech/api/species/26"
+        },
+        "description": "A sepcies within the Star Wars universe",
+        "_id": "5f63a135cf50d100047f9781",
+        "uid": "26",
+        "__v": 0
+    }
+}

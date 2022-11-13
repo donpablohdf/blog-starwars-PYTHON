@@ -1,0 +1,30 @@
+{
+    "message": "ok",
+    "result": {
+        "properties": {
+            "classification": "artificial",
+            "designation": "sentient",
+            "average_height": "n/a",
+            "average_lifespan": "indefinite",
+            "hair_colors": "n/a",
+            "skin_colors": "n/a",
+            "eye_colors": "n/a",
+            "homeworld": "https://www.swapi.tech/api/planets/2",
+            "language": "n/a",
+            "people": [
+                "https://www.swapi.tech/api/people/2",
+                "https://www.swapi.tech/api/people/3",
+                "https://www.swapi.tech/api/people/8",
+                "https://www.swapi.tech/api/people/23"
+            ],
+            "created": "2022-11-13T10:17:52.691Z",
+            "edited": "2022-11-13T10:17:52.691Z",
+            "name": "Droid",
+            "url": "https://www.swapi.tech/api/species/2"
+        },
+        "description": "A sepcies within the Star Wars universe",
+        "_id": "5f63a135cf50d100047f9769",
+        "uid": "2",
+        "__v": 0
+    }
+}

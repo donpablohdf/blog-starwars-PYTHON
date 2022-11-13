@@ -1,0 +1,27 @@
+{
+    "message": "ok",
+    "result": {
+        "properties": {
+            "classification": "mammal",
+            "designation": "sentient",
+            "average_height": "100",
+            "average_lifespan": "unknown",
+            "hair_colors": "none",
+            "skin_colors": "brown, purple, grey, red",
+            "eye_colors": "yellow, blue",
+            "homeworld": "https://www.swapi.tech/api/planets/14",
+            "language": "Dugese",
+            "people": [
+                "https://www.swapi.tech/api/people/41"
+            ],
+            "created": "2022-11-13T10:17:52.691Z",
+            "edited": "2022-11-13T10:17:52.691Z",
+            "name": "Dug",
+            "url": "https://www.swapi.tech/api/species/14"
+        },
+        "description": "A sepcies within the Star Wars universe",
+        "_id": "5f63a135cf50d100047f9775",
+        "uid": "14",
+        "__v": 0
+    }
+}

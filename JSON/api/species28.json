@@ -1,0 +1,27 @@
+{
+    "message": "ok",
+    "result": {
+        "properties": {
+            "classification": "insectoid",
+            "designation": "sentient",
+            "average_height": "178",
+            "average_lifespan": "unknown",
+            "hair_colors": "none",
+            "skin_colors": "green, brown",
+            "eye_colors": "green, hazel",
+            "homeworld": "https://www.swapi.tech/api/planets/28",
+            "language": "Geonosian",
+            "people": [
+                "https://www.swapi.tech/api/people/63"
+            ],
+            "created": "2022-11-13T10:17:52.691Z",
+            "edited": "2022-11-13T10:17:52.691Z",
+            "name": "Geonosian",
+            "url": "https://www.swapi.tech/api/species/28"
+        },
+        "description": "A sepcies within the Star Wars universe",
+        "_id": "5f63a135cf50d100047f9783",
+        "uid": "28",
+        "__v": 0
+    }
+}

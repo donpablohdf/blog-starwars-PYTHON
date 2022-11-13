@@ -1,0 +1,27 @@
+{
+    "message": "ok",
+    "result": {
+        "properties": {
+            "classification": "unknown",
+            "designation": "sentient",
+            "average_height": "100",
+            "average_lifespan": "unknown",
+            "hair_colors": "none",
+            "skin_colors": "grey",
+            "eye_colors": "yellow",
+            "homeworld": "https://www.swapi.tech/api/planets/17",
+            "language": "vulpterish",
+            "people": [
+                "https://www.swapi.tech/api/people/48"
+            ],
+            "created": "2022-11-13T10:17:52.691Z",
+            "edited": "2022-11-13T10:17:52.691Z",
+            "name": "Vulptereen",
+            "url": "https://www.swapi.tech/api/species/17"
+        },
+        "description": "A sepcies within the Star Wars universe",
+        "_id": "5f63a135cf50d100047f9778",
+        "uid": "17",
+        "__v": 0
+    }
+}

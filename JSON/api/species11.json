@@ -1,0 +1,27 @@
+{
+    "message": "ok",
+    "result": {
+        "properties": {
+            "classification": "unknown",
+            "designation": "sentient",
+            "average_height": "180",
+            "average_lifespan": "unknown",
+            "hair_colors": "none",
+            "skin_colors": "grey, green",
+            "eye_colors": "red, pink",
+            "homeworld": "https://www.swapi.tech/api/planets/11",
+            "language": "Neimoidia",
+            "people": [
+                "https://www.swapi.tech/api/people/33"
+            ],
+            "created": "2022-11-13T10:17:52.691Z",
+            "edited": "2022-11-13T10:17:52.691Z",
+            "name": "Neimodian",
+            "url": "https://www.swapi.tech/api/species/11"
+        },
+        "description": "A sepcies within the Star Wars universe",
+        "_id": "5f63a135cf50d100047f9772",
+        "uid": "11",
+        "__v": 0
+    }
+}

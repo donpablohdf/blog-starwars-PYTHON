@@ -1,0 +1,27 @@
+{
+    "message": "ok",
+    "result": {
+        "properties": {
+            "classification": "mammal",
+            "designation": "sentient",
+            "average_height": "240",
+            "average_lifespan": "86",
+            "hair_colors": "none",
+            "skin_colors": "white",
+            "eye_colors": "yellow",
+            "homeworld": "https://www.swapi.tech/api/planets/25",
+            "language": "Quermian",
+            "people": [
+                "https://www.swapi.tech/api/people/57"
+            ],
+            "created": "2022-11-13T10:17:52.691Z",
+            "edited": "2022-11-13T10:17:52.691Z",
+            "name": "Quermian",
+            "url": "https://www.swapi.tech/api/species/25"
+        },
+        "description": "A sepcies within the Star Wars universe",
+        "_id": "5f63a135cf50d100047f9780",
+        "uid": "25",
+        "__v": 0
+    }
+}

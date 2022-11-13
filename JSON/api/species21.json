@@ -1,0 +1,27 @@
+{
+    "message": "ok",
+    "result": {
+        "properties": {
+            "classification": "amphibian",
+            "designation": "sentient",
+            "average_height": "180",
+            "average_lifespan": "70",
+            "hair_colors": "none",
+            "skin_colors": "green, blue, brown, red",
+            "eye_colors": "black",
+            "homeworld": "https://www.swapi.tech/api/planets/21",
+            "language": "Nautila",
+            "people": [
+                "https://www.swapi.tech/api/people/53"
+            ],
+            "created": "2022-11-13T10:17:52.691Z",
+            "edited": "2022-11-13T10:17:52.691Z",
+            "name": "Nautolan",
+            "url": "https://www.swapi.tech/api/species/21"
+        },
+        "description": "A sepcies within the Star Wars universe",
+        "_id": "5f63a135cf50d100047f977c",
+        "uid": "21",
+        "__v": 0
+    }
+}

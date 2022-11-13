@@ -1,0 +1,27 @@
+{
+    "message": "ok",
+    "result": {
+        "properties": {
+            "classification": "sentient",
+            "designation": "reptilian",
+            "average_height": "170",
+            "average_lifespan": "unknown",
+            "hair_colors": "n/a",
+            "skin_colors": "green, blue",
+            "eye_colors": "black",
+            "homeworld": "https://www.swapi.tech/api/planets/4",
+            "language": "Galatic Basic",
+            "people": [
+                "https://www.swapi.tech/api/people/15"
+            ],
+            "created": "2022-11-13T10:17:52.691Z",
+            "edited": "2022-11-13T10:17:52.691Z",
+            "name": "Rodian",
+            "url": "https://www.swapi.tech/api/species/4"
+        },
+        "description": "A sepcies within the Star Wars universe",
+        "_id": "5f63a135cf50d100047f976b",
+        "uid": "4",
+        "__v": 0
+    }
+}

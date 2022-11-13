@@ -1,0 +1,27 @@
+{
+    "message": "ok",
+    "result": {
+        "properties": {
+            "classification": "amphibian",
+            "designation": "sentient",
+            "average_height": "190",
+            "average_lifespan": "unknown",
+            "hair_colors": "none",
+            "skin_colors": "blue",
+            "eye_colors": "blue",
+            "homeworld": "https://www.swapi.tech/api/planets/27",
+            "language": "Chagria",
+            "people": [
+                "https://www.swapi.tech/api/people/59"
+            ],
+            "created": "2022-11-13T10:17:52.691Z",
+            "edited": "2022-11-13T10:17:52.691Z",
+            "name": "Chagrian",
+            "url": "https://www.swapi.tech/api/species/27"
+        },
+        "description": "A sepcies within the Star Wars universe",
+        "_id": "5f63a135cf50d100047f9782",
+        "uid": "27",
+        "__v": 0
+    }
+}

@@ -1,0 +1,28 @@
+{
+    "message": "ok",
+    "result": {
+        "properties": {
+            "classification": "amphibian",
+            "designation": "sentient",
+            "average_height": "220",
+            "average_lifespan": "80",
+            "hair_colors": "none",
+            "skin_colors": "grey, blue",
+            "eye_colors": "black",
+            "homeworld": "https://www.swapi.tech/api/planets/32",
+            "language": "Kaminoan",
+            "people": [
+                "https://www.swapi.tech/api/people/72",
+                "https://www.swapi.tech/api/people/73"
+            ],
+            "created": "2022-11-13T10:17:52.691Z",
+            "edited": "2022-11-13T10:17:52.691Z",
+            "name": "Kaminoan",
+            "url": "https://www.swapi.tech/api/species/32"
+        },
+        "description": "A sepcies within the Star Wars universe",
+        "_id": "5f63a135cf50d100047f9787",
+        "uid": "32",
+        "__v": 0
+    }
+}
