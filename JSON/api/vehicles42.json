@@ -1,0 +1,29 @@
+{
+    "message": "ok",
+    "result": {
+        "properties": {
+            "model": "FC-20 speeder bike",
+            "vehicle_class": "speeder",
+            "manufacturer": "Razalon",
+            "cost_in_credits": "4000",
+            "length": "1.5",
+            "crew": "1",
+            "passengers": "0",
+            "max_atmosphering_speed": "180",
+            "cargo_capacity": "2",
+            "consumables": "unknown",
+            "films": [],
+            "pilots": [
+                "https://www.swapi.tech/api/people/44"
+            ],
+            "created": "2020-09-17T17:46:31.415Z",
+            "edited": "2020-09-17T17:46:31.415Z",
+            "name": "Sith speeder",
+            "url": "https://www.swapi.tech/api/vehicles/42"
+        },
+        "description": "A vehicle",
+        "_id": "5f63a160cf50d100047f980f",
+        "uid": "42",
+        "__v": 0
+    }
+}

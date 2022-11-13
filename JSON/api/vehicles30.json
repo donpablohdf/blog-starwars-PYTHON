@@ -1,0 +1,30 @@
+{
+    "message": "ok",
+    "result": {
+        "properties": {
+            "model": "74-Z speeder bike",
+            "vehicle_class": "speeder",
+            "manufacturer": "Aratech Repulsor Company",
+            "cost_in_credits": "8000",
+            "length": "3",
+            "crew": "1",
+            "passengers": "1",
+            "max_atmosphering_speed": "360",
+            "cargo_capacity": "4",
+            "consumables": "1 day",
+            "films": [],
+            "pilots": [
+                "https://www.swapi.tech/api/people/1",
+                "https://www.swapi.tech/api/people/5"
+            ],
+            "created": "2020-09-17T17:46:31.415Z",
+            "edited": "2020-09-17T17:46:31.415Z",
+            "name": "Imperial Speeder Bike",
+            "url": "https://www.swapi.tech/api/vehicles/30"
+        },
+        "description": "A vehicle",
+        "_id": "5f63a160cf50d100047f9807",
+        "uid": "30",
+        "__v": 0
+    }
+}

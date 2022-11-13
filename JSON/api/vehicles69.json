@@ -1,0 +1,27 @@
+{
+    "message": "ok",
+    "result": {
+        "properties": {
+            "model": "Oevvaor jet catamaran",
+            "vehicle_class": "airspeeder",
+            "manufacturer": "Appazanna Engineering Works",
+            "cost_in_credits": "12125",
+            "length": "15.1",
+            "crew": "2",
+            "passengers": "2",
+            "max_atmosphering_speed": "420",
+            "cargo_capacity": "50",
+            "consumables": "3 days",
+            "films": [],
+            "pilots": [],
+            "created": "2020-09-17T17:46:31.415Z",
+            "edited": "2020-09-17T17:46:31.415Z",
+            "name": "Oevvaor jet catamaran",
+            "url": "https://www.swapi.tech/api/vehicles/69"
+        },
+        "description": "A vehicle",
+        "_id": "5f63a160cf50d100047f981c",
+        "uid": "69",
+        "__v": 0
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "message": "ok",
+    "result": {
+        "properties": {
+            "model": "All Terrain Armored Transport",
+            "vehicle_class": "assault walker",
+            "manufacturer": "Kuat Drive Yards, Imperial Department of Military Research",
+            "cost_in_credits": "unknown",
+            "length": "20",
+            "crew": "5",
+            "passengers": "40",
+            "max_atmosphering_speed": "60",
+            "cargo_capacity": "1000",
+            "consumables": "unknown",
+            "films": [],
+            "pilots": [],
+            "created": "2020-09-17T17:46:31.415Z",
+            "edited": "2020-09-17T17:46:31.415Z",
+            "name": "AT-AT",
+            "url": "https://www.swapi.tech/api/vehicles/18"
+        },
+        "description": "A vehicle",
+        "_id": "5f63a160cf50d100047f9801",
+        "uid": "18",
+        "__v": 0
+    }
+}

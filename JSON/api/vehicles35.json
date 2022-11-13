@@ -1,0 +1,27 @@
+{
+    "message": "ok",
+    "result": {
+        "properties": {
+            "model": "Armoured Assault Tank",
+            "vehicle_class": "repulsorcraft",
+            "manufacturer": "Baktoid Armor Workshop",
+            "cost_in_credits": "unknown",
+            "length": "9.75",
+            "crew": "4",
+            "passengers": "6",
+            "max_atmosphering_speed": "55",
+            "cargo_capacity": "unknown",
+            "consumables": "unknown",
+            "films": [],
+            "pilots": [],
+            "created": "2020-09-17T17:46:31.415Z",
+            "edited": "2020-09-17T17:46:31.415Z",
+            "name": "Armored Assault Tank",
+            "url": "https://www.swapi.tech/api/vehicles/35"
+        },
+        "description": "A vehicle",
+        "_id": "5f63a160cf50d100047f980b",
+        "uid": "35",
+        "__v": 0
+    }
+}

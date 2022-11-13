@@ -1,0 +1,29 @@
+{
+    "message": "ok",
+    "result": {
+        "properties": {
+            "model": "Tsmeu-6 personal wheel bike",
+            "vehicle_class": "wheeled walker",
+            "manufacturer": "Z-Gomot Ternbuell Guppat Corporation",
+            "cost_in_credits": "15000",
+            "length": "3.5",
+            "crew": "1",
+            "passengers": "1",
+            "max_atmosphering_speed": "330",
+            "cargo_capacity": "10",
+            "consumables": "none",
+            "films": [],
+            "pilots": [
+                "https://www.swapi.tech/api/people/79"
+            ],
+            "created": "2020-09-17T17:46:31.415Z",
+            "edited": "2020-09-17T17:46:31.415Z",
+            "name": "Tsmeu-6 personal wheel bike",
+            "url": "https://www.swapi.tech/api/vehicles/60"
+        },
+        "description": "A vehicle",
+        "_id": "5f63a160cf50d100047f981a",
+        "uid": "60",
+        "__v": 0
+    }
+}

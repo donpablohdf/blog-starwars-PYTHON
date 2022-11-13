@@ -1,0 +1,27 @@
+{
+    "message": "ok",
+    "result": {
+        "properties": {
+            "model": "tri-fighter",
+            "vehicle_class": "droid starfighter",
+            "manufacturer": "Colla Designs, Phlac-Arphocc Automata Industries",
+            "cost_in_credits": "20000",
+            "length": "5.4",
+            "crew": "1",
+            "passengers": "0",
+            "max_atmosphering_speed": "1180",
+            "cargo_capacity": "0",
+            "consumables": "none",
+            "films": [],
+            "pilots": [],
+            "created": "2020-09-17T17:46:31.415Z",
+            "edited": "2020-09-17T17:46:31.415Z",
+            "name": "Droid tri-fighter",
+            "url": "https://www.swapi.tech/api/vehicles/67"
+        },
+        "description": "A vehicle",
+        "_id": "5f63a160cf50d100047f981e",
+        "uid": "67",
+        "__v": 0
+    }
+}

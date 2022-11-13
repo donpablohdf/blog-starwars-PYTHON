@@ -1,0 +1,27 @@
+{
+    "message": "ok",
+    "result": {
+        "properties": {
+            "model": "Low Altitude Assault Transport/infrantry",
+            "vehicle_class": "gunship",
+            "manufacturer": "Rothana Heavy Engineering",
+            "cost_in_credits": "unknown",
+            "length": "17.4",
+            "crew": "6",
+            "passengers": "30",
+            "max_atmosphering_speed": "620",
+            "cargo_capacity": "170",
+            "consumables": "unknown",
+            "films": [],
+            "pilots": [],
+            "created": "2020-09-17T17:46:31.415Z",
+            "edited": "2020-09-17T17:46:31.415Z",
+            "name": "LAAT/i",
+            "url": "https://www.swapi.tech/api/vehicles/50"
+        },
+        "description": "A vehicle",
+        "_id": "5f63a160cf50d100047f9813",
+        "uid": "50",
+        "__v": 0
+    }
+}

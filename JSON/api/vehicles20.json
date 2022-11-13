@@ -1,0 +1,27 @@
+{
+    "message": "ok",
+    "result": {
+        "properties": {
+            "model": "Storm IV Twin-Pod",
+            "vehicle_class": "repulsorcraft",
+            "manufacturer": "Bespin Motors",
+            "cost_in_credits": "75000",
+            "length": "7",
+            "crew": "2",
+            "passengers": "0",
+            "max_atmosphering_speed": "1500",
+            "cargo_capacity": "10",
+            "consumables": "1 day",
+            "films": [],
+            "pilots": [],
+            "created": "2020-09-17T17:46:31.415Z",
+            "edited": "2020-09-17T17:46:31.415Z",
+            "name": "Storm IV Twin-Pod cloud car",
+            "url": "https://www.swapi.tech/api/vehicles/20"
+        },
+        "description": "A vehicle",
+        "_id": "5f63a160cf50d100047f9804",
+        "uid": "20",
+        "__v": 0
+    }
+}

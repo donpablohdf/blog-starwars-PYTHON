@@ -1,0 +1,27 @@
+{
+    "message": "ok",
+    "result": {
+        "properties": {
+            "model": "Fire suppression speeder",
+            "vehicle_class": "fire suppression ship",
+            "manufacturer": "unknown",
+            "cost_in_credits": "unknown",
+            "length": "unknown",
+            "crew": "2",
+            "passengers": "unknown",
+            "max_atmosphering_speed": "unknown",
+            "cargo_capacity": "unknown",
+            "consumables": "unknown",
+            "films": [],
+            "pilots": [],
+            "created": "2020-09-17T17:46:31.415Z",
+            "edited": "2020-09-17T17:46:31.415Z",
+            "name": "Emergency Firespeeder",
+            "url": "https://www.swapi.tech/api/vehicles/62"
+        },
+        "description": "A vehicle",
+        "_id": "5f63a160cf50d100047f981b",
+        "uid": "62",
+        "__v": 0
+    }
+}

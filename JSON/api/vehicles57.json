@@ -1,0 +1,27 @@
+{
+    "message": "ok",
+    "result": {
+        "properties": {
+            "model": "Nantex-class territorial defense",
+            "vehicle_class": "starfighter",
+            "manufacturer": "Huppla Pasa Tisc Shipwrights Collective",
+            "cost_in_credits": "unknown",
+            "length": "9.8",
+            "crew": "1",
+            "passengers": "0",
+            "max_atmosphering_speed": "20000",
+            "cargo_capacity": "unknown",
+            "consumables": "unknown",
+            "films": [],
+            "pilots": [],
+            "created": "2020-09-17T17:46:31.415Z",
+            "edited": "2020-09-17T17:46:31.415Z",
+            "name": "Geonosian starfighter",
+            "url": "https://www.swapi.tech/api/vehicles/57"
+        },
+        "description": "A vehicle",
+        "_id": "5f63a160cf50d100047f9819",
+        "uid": "57",
+        "__v": 0
+    }
+}

@@ -1,0 +1,29 @@
+{
+    "message": "ok",
+    "result": {
+        "properties": {
+            "model": "Zephyr-G swoop bike",
+            "vehicle_class": "repulsorcraft",
+            "manufacturer": "Mobquet Swoops and Speeders",
+            "cost_in_credits": "5750",
+            "length": "3.68",
+            "crew": "1",
+            "passengers": "1",
+            "max_atmosphering_speed": "350",
+            "cargo_capacity": "200",
+            "consumables": "none",
+            "films": [],
+            "pilots": [
+                "https://www.swapi.tech/api/people/11"
+            ],
+            "created": "2020-09-17T17:46:31.415Z",
+            "edited": "2020-09-17T17:46:31.415Z",
+            "name": "Zephyr-G swoop bike",
+            "url": "https://www.swapi.tech/api/vehicles/44"
+        },
+        "description": "A vehicle",
+        "_id": "5f63a160cf50d100047f9810",
+        "uid": "44",
+        "__v": 0
+    }
+}

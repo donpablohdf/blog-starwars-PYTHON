@@ -1,0 +1,27 @@
+{
+    "message": "ok",
+    "result": {
+        "properties": {
+            "model": "All Terrain Tactical Enforcer",
+            "vehicle_class": "walker",
+            "manufacturer": "Rothana Heavy Engineering, Kuat Drive Yards",
+            "cost_in_credits": "unknown",
+            "length": "13.2",
+            "crew": "6",
+            "passengers": "36",
+            "max_atmosphering_speed": "60",
+            "cargo_capacity": "10000",
+            "consumables": "21 days",
+            "films": [],
+            "pilots": [],
+            "created": "2020-09-17T17:46:31.415Z",
+            "edited": "2020-09-17T17:46:31.415Z",
+            "name": "AT-TE",
+            "url": "https://www.swapi.tech/api/vehicles/53"
+        },
+        "description": "A vehicle",
+        "_id": "5f63a160cf50d100047f9815",
+        "uid": "53",
+        "__v": 0
+    }
+}

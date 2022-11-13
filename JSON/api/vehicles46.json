@@ -1,0 +1,29 @@
+{
+    "message": "ok",
+    "result": {
+        "properties": {
+            "model": "XJ-6 airspeeder",
+            "vehicle_class": "airspeeder",
+            "manufacturer": "Narglatch AirTech prefabricated kit",
+            "cost_in_credits": "unknown",
+            "length": "6.23",
+            "crew": "1",
+            "passengers": "1",
+            "max_atmosphering_speed": "720",
+            "cargo_capacity": "unknown",
+            "consumables": "unknown",
+            "films": [],
+            "pilots": [
+                "https://www.swapi.tech/api/people/11"
+            ],
+            "created": "2020-09-17T17:46:31.415Z",
+            "edited": "2020-09-17T17:46:31.415Z",
+            "name": "XJ-6 airspeeder",
+            "url": "https://www.swapi.tech/api/vehicles/46"
+        },
+        "description": "A vehicle",
+        "_id": "5f63a160cf50d100047f9812",
+        "uid": "46",
+        "__v": 0
+    }
+}

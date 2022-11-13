@@ -1,0 +1,27 @@
+{
+    "message": "ok",
+    "result": {
+        "properties": {
+            "model": "HAVw A6 Juggernaut",
+            "vehicle_class": "wheeled walker",
+            "manufacturer": "Kuat Drive Yards",
+            "cost_in_credits": "350000",
+            "length": "49.4",
+            "crew": "20",
+            "passengers": "300",
+            "max_atmosphering_speed": "160",
+            "cargo_capacity": "30000",
+            "consumables": "20 days",
+            "films": [],
+            "pilots": [],
+            "created": "2020-09-17T17:46:31.415Z",
+            "edited": "2020-09-17T17:46:31.415Z",
+            "name": "Clone turbo tank",
+            "url": "https://www.swapi.tech/api/vehicles/71"
+        },
+        "description": "A vehicle",
+        "_id": "5f63a160cf50d100047f981f",
+        "uid": "71",
+        "__v": 0
+    }
+}

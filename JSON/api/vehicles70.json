@@ -1,0 +1,27 @@
+{
+    "message": "ok",
+    "result": {
+        "properties": {
+            "model": "Raddaugh Gnasp fluttercraft",
+            "vehicle_class": "air speeder",
+            "manufacturer": "Appazanna Engineering Works",
+            "cost_in_credits": "14750",
+            "length": "7",
+            "crew": "2",
+            "passengers": "0",
+            "max_atmosphering_speed": "310",
+            "cargo_capacity": "20",
+            "consumables": "none",
+            "films": [],
+            "pilots": [],
+            "created": "2020-09-17T17:46:31.415Z",
+            "edited": "2020-09-17T17:46:31.415Z",
+            "name": "Raddaugh Gnasp fluttercraft",
+            "url": "https://www.swapi.tech/api/vehicles/70"
+        },
+        "description": "A vehicle",
+        "_id": "5f63a160cf50d100047f981d",
+        "uid": "70",
+        "__v": 0
+    }
+}

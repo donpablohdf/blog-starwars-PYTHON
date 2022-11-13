@@ -1,0 +1,29 @@
+{
+    "message": "ok",
+    "result": {
+        "properties": {
+            "model": "All Terrain Scout Transport",
+            "vehicle_class": "walker",
+            "manufacturer": "Kuat Drive Yards, Imperial Department of Military Research",
+            "cost_in_credits": "unknown",
+            "length": "2",
+            "crew": "2",
+            "passengers": "0",
+            "max_atmosphering_speed": "90",
+            "cargo_capacity": "200",
+            "consumables": "none",
+            "films": [],
+            "pilots": [
+                "https://www.swapi.tech/api/people/13"
+            ],
+            "created": "2020-09-17T17:46:31.415Z",
+            "edited": "2020-09-17T17:46:31.415Z",
+            "name": "AT-ST",
+            "url": "https://www.swapi.tech/api/vehicles/19"
+        },
+        "description": "A vehicle",
+        "_id": "5f63a160cf50d100047f9803",
+        "uid": "19",
+        "__v": 0
+    }
+}
