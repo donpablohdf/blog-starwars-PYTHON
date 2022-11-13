@@ -1,0 +1,23 @@
+{
+    "message": "ok",
+    "result": {
+        "properties": {
+            "diameter": "12780",
+            "rotation_period": "20",
+            "orbital_period": "263",
+            "gravity": "1",
+            "population": "18500000000",
+            "climate": "superheated",
+            "terrain": "mountains, volcanoes, rocky deserts",
+            "surface_water": "5",
+            "created": "2022-11-13T10:17:52.689Z",
+            "edited": "2022-11-13T10:17:52.689Z",
+            "name": "Sullust",
+            "url": "https://www.swapi.tech/api/planets/33"
+        },
+        "description": "A planet.",
+        "_id": "5f7254c11b7dfa00041c6fce",
+        "uid": "33",
+        "__v": 0
+    }
+}

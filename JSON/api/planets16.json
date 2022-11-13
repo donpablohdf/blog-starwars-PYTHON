@@ -1,0 +1,23 @@
+{
+    "message": "ok",
+    "result": {
+        "properties": {
+            "diameter": "10088",
+            "rotation_period": "12",
+            "orbital_period": "167",
+            "gravity": "1 standard",
+            "population": "19000000",
+            "climate": "frigid",
+            "terrain": "glaciers, mountains, ice canyons",
+            "surface_water": "unknown",
+            "created": "2022-11-13T10:17:52.689Z",
+            "edited": "2022-11-13T10:17:52.689Z",
+            "name": "Mygeeto",
+            "url": "https://www.swapi.tech/api/planets/16"
+        },
+        "description": "A planet.",
+        "_id": "5f7254c11b7dfa00041c6fbd",
+        "uid": "16",
+        "__v": 0
+    }
+}

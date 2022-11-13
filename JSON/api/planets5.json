@@ -1,0 +1,23 @@
+{
+    "message": "ok",
+    "result": {
+        "properties": {
+            "diameter": "8900",
+            "rotation_period": "23",
+            "orbital_period": "341",
+            "gravity": "N/A",
+            "population": "unknown",
+            "climate": "murky",
+            "terrain": "swamp, jungles",
+            "surface_water": "8",
+            "created": "2022-11-13T10:17:52.689Z",
+            "edited": "2022-11-13T10:17:52.689Z",
+            "name": "Dagobah",
+            "url": "https://www.swapi.tech/api/planets/5"
+        },
+        "description": "A planet.",
+        "_id": "5f7254c11b7dfa00041c6fb2",
+        "uid": "5",
+        "__v": 0
+    }
+}

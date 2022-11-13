@@ -1,0 +1,23 @@
+{
+    "message": "ok",
+    "result": {
+        "properties": {
+            "diameter": "11030",
+            "rotation_period": "21",
+            "orbital_period": "398",
+            "gravity": "1",
+            "population": "27000000000",
+            "climate": "temperate",
+            "terrain": "oceans, reefs, islands",
+            "surface_water": "100",
+            "created": "2022-11-13T10:17:52.689Z",
+            "edited": "2022-11-13T10:17:52.689Z",
+            "name": "Mon Cala",
+            "url": "https://www.swapi.tech/api/planets/31"
+        },
+        "description": "A planet.",
+        "_id": "5f7254c11b7dfa00041c6fcc",
+        "uid": "31",
+        "__v": 0
+    }
+}

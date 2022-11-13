@@ -1,0 +1,23 @@
+{
+    "message": "ok",
+    "result": {
+        "properties": {
+            "diameter": "15600",
+            "rotation_period": "33",
+            "orbital_period": "206",
+            "gravity": "1",
+            "population": "500000000",
+            "climate": "tropical, temperate",
+            "terrain": "lakes, islands, swamps, seas",
+            "surface_water": "80",
+            "created": "2022-11-13T10:17:52.689Z",
+            "edited": "2022-11-13T10:17:52.689Z",
+            "name": "Glee Anselm",
+            "url": "https://www.swapi.tech/api/planets/44"
+        },
+        "description": "A planet.",
+        "_id": "5f7254c11b7dfa00041c6fd9",
+        "uid": "44",
+        "__v": 0
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "message": "ok",
+    "result": {
+        "properties": {
+            "diameter": "6400",
+            "rotation_period": "26",
+            "orbital_period": "680",
+            "gravity": "unknown",
+            "population": "62000000",
+            "climate": "temperate",
+            "terrain": "rocky islands, oceans",
+            "surface_water": "98",
+            "created": "2022-11-13T10:17:52.689Z",
+            "edited": "2022-11-13T10:17:52.689Z",
+            "name": "Bestine IV",
+            "url": "https://www.swapi.tech/api/planets/26"
+        },
+        "description": "A planet.",
+        "_id": "5f7254c11b7dfa00041c6fc7",
+        "uid": "26",
+        "__v": 0
+    }
+}

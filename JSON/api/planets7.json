@@ -1,0 +1,23 @@
+{
+    "message": "ok",
+    "result": {
+        "properties": {
+            "diameter": "4900",
+            "rotation_period": "18",
+            "orbital_period": "402",
+            "gravity": "0.85 standard",
+            "population": "30000000",
+            "climate": "temperate",
+            "terrain": "forests, mountains, lakes",
+            "surface_water": "8",
+            "created": "2022-11-13T10:17:52.689Z",
+            "edited": "2022-11-13T10:17:52.689Z",
+            "name": "Endor",
+            "url": "https://www.swapi.tech/api/planets/7"
+        },
+        "description": "A planet.",
+        "_id": "5f7254c11b7dfa00041c6fb4",
+        "uid": "7",
+        "__v": 0
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "message": "ok",
+    "result": {
+        "properties": {
+            "diameter": "10600",
+            "rotation_period": "30",
+            "orbital_period": "305",
+            "gravity": "1",
+            "population": "1500000000",
+            "climate": "temperate, arid, subartic",
+            "terrain": "mountains, valleys, deserts, tundra",
+            "surface_water": "5",
+            "created": "2022-11-13T10:17:52.689Z",
+            "edited": "2022-11-13T10:17:52.689Z",
+            "name": "Ryloth",
+            "url": "https://www.swapi.tech/api/planets/37"
+        },
+        "description": "A planet.",
+        "_id": "5f7254c11b7dfa00041c6fd2",
+        "uid": "37",
+        "__v": 0
+    }
+}

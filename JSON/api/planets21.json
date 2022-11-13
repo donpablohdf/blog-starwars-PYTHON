@@ -1,0 +1,23 @@
+{
+    "message": "ok",
+    "result": {
+        "properties": {
+            "diameter": "13490",
+            "rotation_period": "24",
+            "orbital_period": "360",
+            "gravity": "1 standard",
+            "population": "22000000000",
+            "climate": "polluted",
+            "terrain": "cityscape",
+            "surface_water": "unknown",
+            "created": "2022-11-13T10:17:52.689Z",
+            "edited": "2022-11-13T10:17:52.689Z",
+            "name": "Eriadu",
+            "url": "https://www.swapi.tech/api/planets/21"
+        },
+        "description": "A planet.",
+        "_id": "5f7254c11b7dfa00041c6fc2",
+        "uid": "21",
+        "__v": 0
+    }
+}

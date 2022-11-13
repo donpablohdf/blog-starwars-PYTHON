@@ -1,0 +1,23 @@
+{
+    "message": "ok",
+    "result": {
+        "properties": {
+            "diameter": "0",
+            "rotation_period": "20",
+            "orbital_period": "326",
+            "gravity": "1 standard",
+            "population": "300000000",
+            "climate": "arid",
+            "terrain": "deserts, mountains",
+            "surface_water": "unknown",
+            "created": "2022-11-13T10:17:52.689Z",
+            "edited": "2022-11-13T10:17:52.689Z",
+            "name": "Socorro",
+            "url": "https://www.swapi.tech/api/planets/30"
+        },
+        "description": "A planet.",
+        "_id": "5f7254c11b7dfa00041c6fcb",
+        "uid": "30",
+        "__v": 0
+    }
+}

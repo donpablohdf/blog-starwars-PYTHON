@@ -1,0 +1,23 @@
+{
+    "message": "ok",
+    "result": {
+        "properties": {
+            "diameter": "unknown",
+            "rotation_period": "27",
+            "orbital_period": "386",
+            "gravity": "1",
+            "population": "450000000",
+            "climate": "temperate",
+            "terrain": "verdant",
+            "surface_water": "20",
+            "created": "2022-11-13T10:17:52.689Z",
+            "edited": "2022-11-13T10:17:52.689Z",
+            "name": "Cerea",
+            "url": "https://www.swapi.tech/api/planets/43"
+        },
+        "description": "A planet.",
+        "_id": "5f7254c11b7dfa00041c6fd8",
+        "uid": "43",
+        "__v": 0
+    }
+}

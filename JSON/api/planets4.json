@@ -1,0 +1,23 @@
+{
+    "message": "ok",
+    "result": {
+        "properties": {
+            "diameter": "7200",
+            "rotation_period": "23",
+            "orbital_period": "549",
+            "gravity": "1.1 standard",
+            "population": "unknown",
+            "climate": "frozen",
+            "terrain": "tundra, ice caves, mountain ranges",
+            "surface_water": "100",
+            "created": "2022-11-13T10:17:52.689Z",
+            "edited": "2022-11-13T10:17:52.689Z",
+            "name": "Hoth",
+            "url": "https://www.swapi.tech/api/planets/4"
+        },
+        "description": "A planet.",
+        "_id": "5f7254c11b7dfa00041c6fb1",
+        "uid": "4",
+        "__v": 0
+    }
+}

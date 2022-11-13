@@ -1,0 +1,23 @@
+{
+    "message": "ok",
+    "result": {
+        "properties": {
+            "diameter": "18880",
+            "rotation_period": "26",
+            "orbital_period": "201",
+            "gravity": "1.56",
+            "population": "2000000000",
+            "climate": "arid, temperate, tropical",
+            "terrain": "swamps, deserts, jungles, mountains",
+            "surface_water": "unknown",
+            "created": "2022-11-13T10:17:52.689Z",
+            "edited": "2022-11-13T10:17:52.689Z",
+            "name": "Malastare",
+            "url": "https://www.swapi.tech/api/planets/35"
+        },
+        "description": "A planet.",
+        "_id": "5f7254c11b7dfa00041c6fd0",
+        "uid": "35",
+        "__v": 0
+    }
+}

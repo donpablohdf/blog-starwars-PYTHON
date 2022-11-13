@@ -1,0 +1,23 @@
+{
+    "message": "ok",
+    "result": {
+        "properties": {
+            "diameter": "0",
+            "rotation_period": "24",
+            "orbital_period": "590",
+            "gravity": "0.56 standard",
+            "population": "1000000",
+            "climate": "artificial temperate ",
+            "terrain": "airless asteroid",
+            "surface_water": "0",
+            "created": "2022-11-13T10:17:52.689Z",
+            "edited": "2022-11-13T10:17:52.689Z",
+            "name": "Polis Massa",
+            "url": "https://www.swapi.tech/api/planets/15"
+        },
+        "description": "A planet.",
+        "_id": "5f7254c11b7dfa00041c6fbc",
+        "uid": "15",
+        "__v": 0
+    }
+}

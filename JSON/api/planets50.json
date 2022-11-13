@@ -1,0 +1,23 @@
+{
+    "message": "ok",
+    "result": {
+        "properties": {
+            "diameter": "unknown",
+            "rotation_period": "27",
+            "orbital_period": "318",
+            "gravity": "1",
+            "population": "3500000000",
+            "climate": "temperate",
+            "terrain": "oceans, rainforests, plateaus",
+            "surface_water": "unknown",
+            "created": "2022-11-13T10:17:52.689Z",
+            "edited": "2022-11-13T10:17:52.689Z",
+            "name": "Champala",
+            "url": "https://www.swapi.tech/api/planets/50"
+        },
+        "description": "A planet.",
+        "_id": "5f7254c11b7dfa00041c6fdf",
+        "uid": "50",
+        "__v": 0
+    }
+}

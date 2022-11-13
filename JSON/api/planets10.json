@@ -1,0 +1,23 @@
+{
+    "message": "ok",
+    "result": {
+        "properties": {
+            "diameter": "19720",
+            "rotation_period": "27",
+            "orbital_period": "463",
+            "gravity": "1 standard",
+            "population": "1000000000",
+            "climate": "temperate",
+            "terrain": "ocean",
+            "surface_water": "100",
+            "created": "2022-11-13T10:17:52.689Z",
+            "edited": "2022-11-13T10:17:52.689Z",
+            "name": "Kamino",
+            "url": "https://www.swapi.tech/api/planets/10"
+        },
+        "description": "A planet.",
+        "_id": "5f7254c11b7dfa00041c6fb7",
+        "uid": "10",
+        "__v": 0
+    }
+}

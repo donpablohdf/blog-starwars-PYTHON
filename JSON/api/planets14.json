@@ -1,0 +1,23 @@
+{
+    "message": "ok",
+    "result": {
+        "properties": {
+            "diameter": "12765",
+            "rotation_period": "26",
+            "orbital_period": "381",
+            "gravity": "1 standard",
+            "population": "45000000",
+            "climate": "tropical",
+            "terrain": "jungle, forests, lakes, rivers",
+            "surface_water": "60",
+            "created": "2022-11-13T10:17:52.689Z",
+            "edited": "2022-11-13T10:17:52.689Z",
+            "name": "Kashyyyk",
+            "url": "https://www.swapi.tech/api/planets/14"
+        },
+        "description": "A planet.",
+        "_id": "5f7254c11b7dfa00041c6fbb",
+        "uid": "14",
+        "__v": 0
+    }
+}

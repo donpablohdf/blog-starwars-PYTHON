@@ -1,0 +1,23 @@
+{
+    "message": "ok",
+    "result": {
+        "properties": {
+            "diameter": "12120",
+            "rotation_period": "26",
+            "orbital_period": "312",
+            "gravity": "1 standard",
+            "population": "4500000000",
+            "climate": "temperate",
+            "terrain": "grassy hills, swamps, forests, mountains",
+            "surface_water": "12",
+            "created": "2022-11-13T10:17:52.689Z",
+            "edited": "2022-11-13T10:17:52.689Z",
+            "name": "Naboo",
+            "url": "https://www.swapi.tech/api/planets/8"
+        },
+        "description": "A planet.",
+        "_id": "5f7254c11b7dfa00041c6fb5",
+        "uid": "8",
+        "__v": 0
+    }
+}

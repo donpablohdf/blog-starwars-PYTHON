@@ -1,0 +1,23 @@
+{
+    "message": "ok",
+    "result": {
+        "properties": {
+            "diameter": "11000",
+            "rotation_period": "25",
+            "orbital_period": "329",
+            "gravity": "1 standard",
+            "population": "3000000000",
+            "climate": "temperate",
+            "terrain": "plains, urban, hills, forests",
+            "surface_water": "70",
+            "created": "2022-11-13T10:17:52.689Z",
+            "edited": "2022-11-13T10:17:52.689Z",
+            "name": "Corellia",
+            "url": "https://www.swapi.tech/api/planets/22"
+        },
+        "description": "A planet.",
+        "_id": "5f7254c11b7dfa00041c6fc3",
+        "uid": "22",
+        "__v": 0
+    }
+}

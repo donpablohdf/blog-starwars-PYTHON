@@ -1,0 +1,23 @@
+{
+    "message": "ok",
+    "result": {
+        "properties": {
+            "diameter": "118000",
+            "rotation_period": "12",
+            "orbital_period": "5110",
+            "gravity": "1.5 (surface), 1 standard (Cloud City)",
+            "population": "6000000",
+            "climate": "temperate",
+            "terrain": "gas giant",
+            "surface_water": "0",
+            "created": "2022-11-13T10:17:52.689Z",
+            "edited": "2022-11-13T10:17:52.689Z",
+            "name": "Bespin",
+            "url": "https://www.swapi.tech/api/planets/6"
+        },
+        "description": "A planet.",
+        "_id": "5f7254c11b7dfa00041c6fb3",
+        "uid": "6",
+        "__v": 0
+    }
+}

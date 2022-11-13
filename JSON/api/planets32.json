@@ -1,0 +1,23 @@
+{
+    "message": "ok",
+    "result": {
+        "properties": {
+            "diameter": "13500",
+            "rotation_period": "20",
+            "orbital_period": "368",
+            "gravity": "1",
+            "population": "1200000000",
+            "climate": "temperate",
+            "terrain": "plains, forests",
+            "surface_water": "40",
+            "created": "2022-11-13T10:17:52.689Z",
+            "edited": "2022-11-13T10:17:52.689Z",
+            "name": "Chandrila",
+            "url": "https://www.swapi.tech/api/planets/32"
+        },
+        "description": "A planet.",
+        "_id": "5f7254c11b7dfa00041c6fcd",
+        "uid": "32",
+        "__v": 0
+    }
+}

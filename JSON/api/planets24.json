@@ -1,0 +1,23 @@
+{
+    "message": "ok",
+    "result": {
+        "properties": {
+            "diameter": "12150",
+            "rotation_period": "87",
+            "orbital_period": "413",
+            "gravity": "1 standard",
+            "population": "7000000000",
+            "climate": "temperate",
+            "terrain": "urban, oceans, swamps, bogs",
+            "surface_water": "unknown",
+            "created": "2022-11-13T10:17:52.689Z",
+            "edited": "2022-11-13T10:17:52.689Z",
+            "name": "Nal Hutta",
+            "url": "https://www.swapi.tech/api/planets/24"
+        },
+        "description": "A planet.",
+        "_id": "5f7254c11b7dfa00041c6fc5",
+        "uid": "24",
+        "__v": 0
+    }
+}

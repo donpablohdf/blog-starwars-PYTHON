@@ -1,0 +1,23 @@
+{
+    "message": "ok",
+    "result": {
+        "properties": {
+            "diameter": "14900",
+            "rotation_period": "22",
+            "orbital_period": "391",
+            "gravity": "1",
+            "population": "421000000",
+            "climate": "temperate, artic",
+            "terrain": "urban, barren",
+            "surface_water": "unknown",
+            "created": "2022-11-13T10:17:52.689Z",
+            "edited": "2022-11-13T10:17:52.689Z",
+            "name": "Vulpter",
+            "url": "https://www.swapi.tech/api/planets/39"
+        },
+        "description": "A planet.",
+        "_id": "5f7254c11b7dfa00041c6fd4",
+        "uid": "39",
+        "__v": 0
+    }
+}

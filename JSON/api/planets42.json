@@ -1,0 +1,23 @@
+{
+    "message": "ok",
+    "result": {
+        "properties": {
+            "diameter": "10120",
+            "rotation_period": "25",
+            "orbital_period": "383",
+            "gravity": "0.98",
+            "population": "705300",
+            "climate": "temperate",
+            "terrain": "toxic cloudsea, plateaus, volcanoes",
+            "surface_water": "unknown",
+            "created": "2022-11-13T10:17:52.689Z",
+            "edited": "2022-11-13T10:17:52.689Z",
+            "name": "Haruun Kal",
+            "url": "https://www.swapi.tech/api/planets/42"
+        },
+        "description": "A planet.",
+        "_id": "5f7254c11b7dfa00041c6fd7",
+        "uid": "42",
+        "__v": 0
+    }
+}

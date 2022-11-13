@@ -1,0 +1,23 @@
+{
+    "message": "ok",
+    "result": {
+        "properties": {
+            "diameter": "9100",
+            "rotation_period": "34",
+            "orbital_period": "231",
+            "gravity": "0.75 standard",
+            "population": "8500000",
+            "climate": "hot, humid",
+            "terrain": "fungus forests",
+            "surface_water": "unknown",
+            "created": "2022-11-13T10:17:52.689Z",
+            "edited": "2022-11-13T10:17:52.689Z",
+            "name": "Felucia",
+            "url": "https://www.swapi.tech/api/planets/17"
+        },
+        "description": "A planet.",
+        "_id": "5f7254c11b7dfa00041c6fbe",
+        "uid": "17",
+        "__v": 0
+    }
+}

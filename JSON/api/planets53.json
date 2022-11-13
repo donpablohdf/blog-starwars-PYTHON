@@ -1,0 +1,23 @@
+{
+    "message": "ok",
+    "result": {
+        "properties": {
+            "diameter": "unknown",
+            "rotation_period": "unknown",
+            "orbital_period": "unknown",
+            "gravity": "unknown",
+            "population": "unknown",
+            "climate": "unknown",
+            "terrain": "jungles, forests, deserts",
+            "surface_water": "unknown",
+            "created": "2022-11-13T10:17:52.689Z",
+            "edited": "2022-11-13T10:17:52.689Z",
+            "name": "Concord Dawn",
+            "url": "https://www.swapi.tech/api/planets/53"
+        },
+        "description": "A planet.",
+        "_id": "5f7254c11b7dfa00041c6fe2",
+        "uid": "53",
+        "__v": 0
+    }
+}

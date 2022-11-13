@@ -1,0 +1,23 @@
+{
+    "message": "ok",
+    "result": {
+        "properties": {
+            "diameter": "4200",
+            "rotation_period": "36",
+            "orbital_period": "412",
+            "gravity": "1 standard",
+            "population": "20000",
+            "climate": "hot",
+            "terrain": "volcanoes, lava rivers, mountains, caves",
+            "surface_water": "0",
+            "created": "2022-11-13T10:17:52.689Z",
+            "edited": "2022-11-13T10:17:52.689Z",
+            "name": "Mustafar",
+            "url": "https://www.swapi.tech/api/planets/13"
+        },
+        "description": "A planet.",
+        "_id": "5f7254c11b7dfa00041c6fba",
+        "uid": "13",
+        "__v": 0
+    }
+}

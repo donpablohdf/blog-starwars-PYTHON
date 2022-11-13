@@ -1,0 +1,23 @@
+{
+    "message": "ok",
+    "result": {
+        "properties": {
+            "diameter": "unknown",
+            "rotation_period": "22",
+            "orbital_period": "481",
+            "gravity": "1",
+            "population": "unknown",
+            "climate": "arid, rocky, windy",
+            "terrain": "rocky",
+            "surface_water": "unknown",
+            "created": "2022-11-13T10:17:52.689Z",
+            "edited": "2022-11-13T10:17:52.689Z",
+            "name": "Iktotch",
+            "url": "https://www.swapi.tech/api/planets/47"
+        },
+        "description": "A planet.",
+        "_id": "5f7254c11b7dfa00041c6fdc",
+        "uid": "47",
+        "__v": 0
+    }
+}

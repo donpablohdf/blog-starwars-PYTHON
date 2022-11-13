@@ -1,0 +1,23 @@
+{
+    "message": "ok",
+    "result": {
+        "properties": {
+            "diameter": "0",
+            "rotation_period": "25",
+            "orbital_period": "278",
+            "gravity": "1 standard",
+            "population": "10000000",
+            "climate": "temperate, moist",
+            "terrain": "mountains, fields, forests, rock arches",
+            "surface_water": "unknown",
+            "created": "2022-11-13T10:17:52.689Z",
+            "edited": "2022-11-13T10:17:52.689Z",
+            "name": "Cato Neimoidia",
+            "url": "https://www.swapi.tech/api/planets/18"
+        },
+        "description": "A planet.",
+        "_id": "5f7254c11b7dfa00041c6fbf",
+        "uid": "18",
+        "__v": 0
+    }
+}

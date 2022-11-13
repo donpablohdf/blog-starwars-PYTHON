@@ -1,0 +1,23 @@
+{
+    "message": "ok",
+    "result": {
+        "properties": {
+            "diameter": "0",
+            "rotation_period": "0",
+            "orbital_period": "0",
+            "gravity": "unknown",
+            "population": "unknown",
+            "climate": "unknown",
+            "terrain": "unknown",
+            "surface_water": "unknown",
+            "created": "2022-11-13T10:17:52.689Z",
+            "edited": "2022-11-13T10:17:52.689Z",
+            "name": "unknown",
+            "url": "https://www.swapi.tech/api/planets/28"
+        },
+        "description": "A planet.",
+        "_id": "5f7254c11b7dfa00041c6fc9",
+        "uid": "28",
+        "__v": 0
+    }
+}

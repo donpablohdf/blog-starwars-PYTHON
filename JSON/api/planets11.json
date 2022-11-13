@@ -1,0 +1,23 @@
+{
+    "message": "ok",
+    "result": {
+        "properties": {
+            "diameter": "11370",
+            "rotation_period": "30",
+            "orbital_period": "256",
+            "gravity": "0.9 standard",
+            "population": "100000000000",
+            "climate": "temperate, arid",
+            "terrain": "rock, desert, mountain, barren",
+            "surface_water": "5",
+            "created": "2022-11-13T10:17:52.689Z",
+            "edited": "2022-11-13T10:17:52.689Z",
+            "name": "Geonosis",
+            "url": "https://www.swapi.tech/api/planets/11"
+        },
+        "description": "A planet.",
+        "_id": "5f7254c11b7dfa00041c6fb8",
+        "uid": "11",
+        "__v": 0
+    }
+}

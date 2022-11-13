@@ -1,0 +1,23 @@
+{
+    "message": "ok",
+    "result": {
+        "properties": {
+            "diameter": "12190",
+            "rotation_period": "48",
+            "orbital_period": "1770",
+            "gravity": "unknown",
+            "population": "0",
+            "climate": "unknown",
+            "terrain": "barren, ash",
+            "surface_water": "unknown",
+            "created": "2022-11-13T10:17:52.689Z",
+            "edited": "2022-11-13T10:17:52.689Z",
+            "name": "Tund",
+            "url": "https://www.swapi.tech/api/planets/41"
+        },
+        "description": "A planet.",
+        "_id": "5f7254c11b7dfa00041c6fd6",
+        "uid": "41",
+        "__v": 0
+    }
+}
