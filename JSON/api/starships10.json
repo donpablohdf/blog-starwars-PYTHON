@@ -1,0 +1,33 @@
+{
+    "message": "ok",
+    "result": {
+        "properties": {
+            "model": "YT-1300 light freighter",
+            "starship_class": "Light freighter",
+            "manufacturer": "Corellian Engineering Corporation",
+            "cost_in_credits": "100000",
+            "length": "34.37",
+            "crew": "4",
+            "passengers": "6",
+            "max_atmosphering_speed": "1050",
+            "hyperdrive_rating": "0.5",
+            "MGLT": "75",
+            "cargo_capacity": "100000",
+            "consumables": "2 months",
+            "pilots": [
+                "https://www.swapi.tech/api/people/13",
+                "https://www.swapi.tech/api/people/14",
+                "https://www.swapi.tech/api/people/25",
+                "https://www.swapi.tech/api/people/31"
+            ],
+            "created": "2020-09-17T17:55:06.604Z",
+            "edited": "2020-09-17T17:55:06.604Z",
+            "name": "Millennium Falcon",
+            "url": "https://www.swapi.tech/api/starships/10"
+        },
+        "description": "A Starship",
+        "_id": "5f63a34fee9fd7000499be23",
+        "uid": "10",
+        "__v": 0
+    }
+}

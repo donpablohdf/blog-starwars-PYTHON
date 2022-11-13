@@ -1,0 +1,30 @@
+{
+    "message": "ok",
+    "result": {
+        "properties": {
+            "model": "H-type Nubian yacht",
+            "starship_class": "yacht",
+            "manufacturer": "Theed Palace Space Vessel Engineering Corps",
+            "cost_in_credits": "unknown",
+            "length": "47.9",
+            "crew": "4",
+            "passengers": "unknown",
+            "max_atmosphering_speed": "8000",
+            "hyperdrive_rating": "0.9",
+            "MGLT": "unknown",
+            "cargo_capacity": "unknown",
+            "consumables": "unknown",
+            "pilots": [
+                "https://www.swapi.tech/api/people/35"
+            ],
+            "created": "2020-09-17T17:55:06.604Z",
+            "edited": "2020-09-17T17:55:06.604Z",
+            "name": "H-type Nubian yacht",
+            "url": "https://www.swapi.tech/api/starships/49"
+        },
+        "description": "A Starship",
+        "_id": "5f63a34fee9fd7000499be37",
+        "uid": "49",
+        "__v": 0
+    }
+}
