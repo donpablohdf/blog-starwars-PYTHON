@@ -1,0 +1,23 @@
+{
+    "message": "ok",
+    "result": {
+        "properties": {
+            "height": "183",
+            "mass": "unknown",
+            "hair_color": "brown",
+            "skin_color": "fair",
+            "eye_color": "blue",
+            "birth_year": "unknown",
+            "gender": "male",
+            "created": "2022-11-13T10:17:52.686Z",
+            "edited": "2022-11-13T10:17:52.686Z",
+            "name": "Ric Oli\u00e9",
+            "homeworld": "https://www.swapi.tech/api/planets/8",
+            "url": "https://www.swapi.tech/api/people/39"
+        },
+        "description": "A person within the Star Wars universe",
+        "_id": "5f63a36fee9fd7000499be67",
+        "uid": "39",
+        "__v": 0
+    }
+}

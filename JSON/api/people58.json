@@ -1,0 +1,23 @@
+{
+    "message": "ok",
+    "result": {
+        "properties": {
+            "height": "188",
+            "mass": "80",
+            "hair_color": "none",
+            "skin_color": "orange",
+            "eye_color": "black",
+            "birth_year": "22BBY",
+            "gender": "male",
+            "created": "2022-11-13T10:17:52.686Z",
+            "edited": "2022-11-13T10:17:52.686Z",
+            "name": "Plo Koon",
+            "homeworld": "https://www.swapi.tech/api/planets/49",
+            "url": "https://www.swapi.tech/api/people/58"
+        },
+        "description": "A person within the Star Wars universe",
+        "_id": "5f63a36fee9fd7000499be7a",
+        "uid": "58",
+        "__v": 0
+    }
+}

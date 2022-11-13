@@ -1,0 +1,23 @@
+{
+    "message": "ok",
+    "result": {
+        "properties": {
+            "height": "193",
+            "mass": "80",
+            "hair_color": "white",
+            "skin_color": "fair",
+            "eye_color": "brown",
+            "birth_year": "102BBY",
+            "gender": "male",
+            "created": "2022-11-13T10:17:52.686Z",
+            "edited": "2022-11-13T10:17:52.686Z",
+            "name": "Dooku",
+            "homeworld": "https://www.swapi.tech/api/planets/52",
+            "url": "https://www.swapi.tech/api/people/67"
+        },
+        "description": "A person within the Star Wars universe",
+        "_id": "5f63a36fee9fd7000499be83",
+        "uid": "67",
+        "__v": 0
+    }
+}

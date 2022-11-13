@@ -1,0 +1,23 @@
+{
+    "message": "ok",
+    "result": {
+        "properties": {
+            "height": "167",
+            "mass": "unknown",
+            "hair_color": "white",
+            "skin_color": "fair",
+            "eye_color": "blue",
+            "birth_year": "unknown",
+            "gender": "female",
+            "created": "2022-11-13T10:17:52.686Z",
+            "edited": "2022-11-13T10:17:52.686Z",
+            "name": "Jocasta Nu",
+            "homeworld": "https://www.swapi.tech/api/planets/9",
+            "url": "https://www.swapi.tech/api/people/74"
+        },
+        "description": "A person within the Star Wars universe",
+        "_id": "5f63a36fee9fd7000499be8a",
+        "uid": "74",
+        "__v": 0
+    }
+}

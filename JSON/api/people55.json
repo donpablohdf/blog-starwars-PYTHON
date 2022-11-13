@@ -1,0 +1,23 @@
+{
+    "message": "ok",
+    "result": {
+        "properties": {
+            "height": "184",
+            "mass": "50",
+            "hair_color": "none",
+            "skin_color": "dark",
+            "eye_color": "blue",
+            "birth_year": "unknown",
+            "gender": "female",
+            "created": "2022-11-13T10:17:52.686Z",
+            "edited": "2022-11-13T10:17:52.686Z",
+            "name": "Adi Gallia",
+            "homeworld": "https://www.swapi.tech/api/planets/9",
+            "url": "https://www.swapi.tech/api/people/55"
+        },
+        "description": "A person within the Star Wars universe",
+        "_id": "5f63a36fee9fd7000499be77",
+        "uid": "55",
+        "__v": 0
+    }
+}

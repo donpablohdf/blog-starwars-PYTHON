@@ -1,0 +1,23 @@
+{
+    "message": "ok",
+    "result": {
+        "properties": {
+            "height": "196",
+            "mass": "66",
+            "hair_color": "none",
+            "skin_color": "orange",
+            "eye_color": "orange",
+            "birth_year": "52BBY",
+            "gender": "male",
+            "created": "2022-11-13T10:17:52.686Z",
+            "edited": "2022-11-13T10:17:52.686Z",
+            "name": "Jar Jar Binks",
+            "homeworld": "https://www.swapi.tech/api/planets/8",
+            "url": "https://www.swapi.tech/api/people/36"
+        },
+        "description": "A person within the Star Wars universe",
+        "_id": "5f63a36fee9fd7000499be64",
+        "uid": "36",
+        "__v": 0
+    }
+}

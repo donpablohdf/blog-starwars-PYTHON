@@ -1,0 +1,23 @@
+{
+    "message": "ok",
+    "result": {
+        "properties": {
+            "height": "190",
+            "mass": "113",
+            "hair_color": "none",
+            "skin_color": "green",
+            "eye_color": "red",
+            "birth_year": "53BBY",
+            "gender": "male",
+            "created": "2022-11-13T10:17:52.686Z",
+            "edited": "2022-11-13T10:17:52.686Z",
+            "name": "Bossk",
+            "homeworld": "https://www.swapi.tech/api/planets/29",
+            "url": "https://www.swapi.tech/api/people/24"
+        },
+        "description": "A person within the Star Wars universe",
+        "_id": "5f63a36fee9fd7000499be58",
+        "uid": "24",
+        "__v": 0
+    }
+}

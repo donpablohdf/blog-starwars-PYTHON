@@ -1,0 +1,23 @@
+{
+    "message": "ok",
+    "result": {
+        "properties": {
+            "height": "79",
+            "mass": "15",
+            "hair_color": "none",
+            "skin_color": "grey, blue",
+            "eye_color": "unknown",
+            "birth_year": "unknown",
+            "gender": "male",
+            "created": "2022-11-13T10:17:52.686Z",
+            "edited": "2022-11-13T10:17:52.686Z",
+            "name": "Ratts Tyerel",
+            "homeworld": "https://www.swapi.tech/api/planets/38",
+            "url": "https://www.swapi.tech/api/people/47"
+        },
+        "description": "A person within the Star Wars universe",
+        "_id": "5f63a36fee9fd7000499be6f",
+        "uid": "47",
+        "__v": 0
+    }
+}

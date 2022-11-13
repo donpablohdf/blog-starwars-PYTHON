@@ -1,0 +1,23 @@
+{
+    "message": "ok",
+    "result": {
+        "properties": {
+            "height": "188",
+            "mass": "84",
+            "hair_color": "none",
+            "skin_color": "dark",
+            "eye_color": "brown",
+            "birth_year": "72BBY",
+            "gender": "male",
+            "created": "2022-11-13T10:17:52.686Z",
+            "edited": "2022-11-13T10:17:52.686Z",
+            "name": "Mace Windu",
+            "homeworld": "https://www.swapi.tech/api/planets/42",
+            "url": "https://www.swapi.tech/api/people/51"
+        },
+        "description": "A person within the Star Wars universe",
+        "_id": "5f63a36fee9fd7000499be73",
+        "uid": "51",
+        "__v": 0
+    }
+}

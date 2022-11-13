@@ -1,0 +1,23 @@
+{
+    "message": "ok",
+    "result": {
+        "properties": {
+            "height": "112",
+            "mass": "40",
+            "hair_color": "none",
+            "skin_color": "grey, red",
+            "eye_color": "orange",
+            "birth_year": "unknown",
+            "gender": "male",
+            "created": "2022-11-13T10:17:52.686Z",
+            "edited": "2022-11-13T10:17:52.686Z",
+            "name": "Sebulba",
+            "homeworld": "https://www.swapi.tech/api/planets/35",
+            "url": "https://www.swapi.tech/api/people/41"
+        },
+        "description": "A person within the Star Wars universe",
+        "_id": "5f63a36fee9fd7000499be69",
+        "uid": "41",
+        "__v": 0
+    }
+}

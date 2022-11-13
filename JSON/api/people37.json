@@ -1,0 +1,23 @@
+{
+    "message": "ok",
+    "result": {
+        "properties": {
+            "height": "224",
+            "mass": "82",
+            "hair_color": "none",
+            "skin_color": "grey",
+            "eye_color": "orange",
+            "birth_year": "unknown",
+            "gender": "male",
+            "created": "2022-11-13T10:17:52.686Z",
+            "edited": "2022-11-13T10:17:52.686Z",
+            "name": "Roos Tarpals",
+            "homeworld": "https://www.swapi.tech/api/planets/8",
+            "url": "https://www.swapi.tech/api/people/37"
+        },
+        "description": "A person within the Star Wars universe",
+        "_id": "5f63a36fee9fd7000499be65",
+        "uid": "37",
+        "__v": 0
+    }
+}

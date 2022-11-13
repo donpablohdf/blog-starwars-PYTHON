@@ -1,0 +1,23 @@
+{
+    "message": "ok",
+    "result": {
+        "properties": {
+            "height": "183",
+            "mass": "unknown",
+            "hair_color": "brown",
+            "skin_color": "fair",
+            "eye_color": "blue",
+            "birth_year": "82BBY",
+            "gender": "male",
+            "created": "2022-11-13T10:17:52.686Z",
+            "edited": "2022-11-13T10:17:52.686Z",
+            "name": "Cliegg Lars",
+            "homeworld": "https://www.swapi.tech/api/planets/1",
+            "url": "https://www.swapi.tech/api/people/62"
+        },
+        "description": "A person within the Star Wars universe",
+        "_id": "5f63a36fee9fd7000499be7e",
+        "uid": "62",
+        "__v": 0
+    }
+}

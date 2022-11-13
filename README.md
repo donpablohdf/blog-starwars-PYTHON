@@ -3,6 +3,7 @@
 _La fuerza es fuerte en este ejercicio...._
 
 Vamos a construir una versión minimalista del [Banco de datos de Star Wars](https://www.starwars.com/databank) con una función React o lista de favoritos.
+Con Python SQLalchemy y más
 
 ## !Aquí hay un Demo!
 

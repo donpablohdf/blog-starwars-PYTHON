@@ -1,0 +1,23 @@
+{
+    "message": "ok",
+    "result": {
+        "properties": {
+            "height": "170",
+            "mass": "unknown",
+            "hair_color": "blond",
+            "skin_color": "fair",
+            "eye_color": "blue",
+            "birth_year": "91BBY",
+            "gender": "male",
+            "created": "2022-11-13T10:17:52.686Z",
+            "edited": "2022-11-13T10:17:52.686Z",
+            "name": "Finis Valorum",
+            "homeworld": "https://www.swapi.tech/api/planets/9",
+            "url": "https://www.swapi.tech/api/people/34"
+        },
+        "description": "A person within the Star Wars universe",
+        "_id": "5f63a36fee9fd7000499be62",
+        "uid": "34",
+        "__v": 0
+    }
+}

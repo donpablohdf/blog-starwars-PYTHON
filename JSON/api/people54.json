@@ -1,0 +1,23 @@
+{
+    "message": "ok",
+    "result": {
+        "properties": {
+            "height": "171",
+            "mass": "unknown",
+            "hair_color": "black",
+            "skin_color": "brown",
+            "eye_color": "brown",
+            "birth_year": "unknown",
+            "gender": "male",
+            "created": "2022-11-13T10:17:52.686Z",
+            "edited": "2022-11-13T10:17:52.686Z",
+            "name": "Eeth Koth",
+            "homeworld": "https://www.swapi.tech/api/planets/45",
+            "url": "https://www.swapi.tech/api/people/54"
+        },
+        "description": "A person within the Star Wars universe",
+        "_id": "5f63a36fee9fd7000499be76",
+        "uid": "54",
+        "__v": 0
+    }
+}

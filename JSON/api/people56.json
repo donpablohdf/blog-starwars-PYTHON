@@ -1,0 +1,23 @@
+{
+    "message": "ok",
+    "result": {
+        "properties": {
+            "height": "188",
+            "mass": "unknown",
+            "hair_color": "none",
+            "skin_color": "pale",
+            "eye_color": "orange",
+            "birth_year": "unknown",
+            "gender": "male",
+            "created": "2022-11-13T10:17:52.686Z",
+            "edited": "2022-11-13T10:17:52.686Z",
+            "name": "Saesee Tiin",
+            "homeworld": "https://www.swapi.tech/api/planets/47",
+            "url": "https://www.swapi.tech/api/people/56"
+        },
+        "description": "A person within the Star Wars universe",
+        "_id": "5f63a36fee9fd7000499be78",
+        "uid": "56",
+        "__v": 0
+    }
+}

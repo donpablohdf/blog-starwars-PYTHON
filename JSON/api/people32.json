@@ -1,0 +1,23 @@
+{
+    "message": "ok",
+    "result": {
+        "properties": {
+            "height": "193",
+            "mass": "89",
+            "hair_color": "brown",
+            "skin_color": "fair",
+            "eye_color": "blue",
+            "birth_year": "92BBY",
+            "gender": "male",
+            "created": "2022-11-13T10:17:52.686Z",
+            "edited": "2022-11-13T10:17:52.686Z",
+            "name": "Qui-Gon Jinn",
+            "homeworld": "https://www.swapi.tech/api/planets/28",
+            "url": "https://www.swapi.tech/api/people/32"
+        },
+        "description": "A person within the Star Wars universe",
+        "_id": "5f63a36fee9fd7000499be60",
+        "uid": "32",
+        "__v": 0
+    }
+}
