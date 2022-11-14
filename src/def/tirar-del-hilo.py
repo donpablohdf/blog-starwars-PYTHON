@@ -1,13 +1,14 @@
 from time import sleep
 import requests
 import json
-import logging
+from ast import literal_eval
 from concurrent.futures import Future
-from sqlalchemy import create_engine, select, insert, MetaData, Table
+import sqlalchemy
+from sqlalchemy import *
+from sqlalchemy.orm import *
 
-logging.basicConfig(level=logging.DEBUG, format='%(message)s')
 
-def tirarDelHilo (bbdd_conex, bbdd_table, obj_key_1, obj_key_2, obj_key_3, json_source, json_path_file):
+def tirarDelHilo (bbdd_conex, bbdd_table, obj_key_1, obj_key_2, obj_key_3, json_source, json_path_file, create_table):
     # API----------------------------------------------------------------------
     # recuperamos GET de la API. ---O J O--- url para empezar a tirar del hilo json_source = 'https://www.swapi.tech/api/'
     json_API_data = requests.get(json_source)
@@ -25,23 +26,39 @@ def tirarDelHilo (bbdd_conex, bbdd_table, obj_key_1, obj_key_2, obj_key_3, json_
     prometo_al_futuro.add_done_callback(promesa_cumplida)
     prometo_al_futuro.set_result(json_API_data.text)
 
-    # BBDD -----------------------------------------------------------
-    server = create_engine(bbdd_conex) # bbdd_conex = 'mysql+pymysql://4geeks:4geeks@localhost/WarsStart?charset=utf8mb4'
-    server_connection = server.connect() # iniciamos conexion a la bbdd
+# BBDD -------------------------------------------------------
+    # bbdd_conex = 'mysql+pymysql://4geeks:4geeks@localhost/WarsStart?charset=utf8mb4'
+    engine = create_engine(bbdd_conex)
+    # iniciamos conexion a la bbdd
+    server_connection = engine.connect()
+    metadata = MetaData(bind=None)
     #compruebo si existe bbdd_table en la BBDD
-    # list_tables = server_connection.table_names()
-    # print(list_tables)
-    # crear la tabla si no existe
+    if not sqlalchemy.inspect(engine).has_table(bbdd_table):  # si la tabla NO exite la creo
+        # create_table = ["Column('id', Integer, primary_key = True)", "Column('section', String(255))"]
+        def datos():
+            for datos in create_table:
+                return eval(datos)
 
-    #si existe conectarse
- 
-    
-    
+        tabla_crear = Table(
+            bbdd_table, metadata,
+            datos()
+            # FUNCIONAN
+            # 1. -
+            # eval(create_table[0]),
+            # eval(create_table[1]),
+            # .....
+            # eval(create_table[n])
+            #
+            # 2.-
+            # Column('id', Integer, primary_key = True), 
+            # Column('section', String(255))
+        )
+        # Implement the creation
+        metadata.create_all(engine)
+
     try:
-        
         data_from_API=prometo_al_futuro.result()
         data_to_insert= json.loads(data_from_API)
-        
         if obj_key_1!='':
             data_to_insert_1=data_to_insert[obj_key_1]
         if obj_key_2!='':
@@ -50,23 +67,27 @@ def tirarDelHilo (bbdd_conex, bbdd_table, obj_key_1, obj_key_2, obj_key_3, json_
             data_to_insert_3=data_to_insert[obj_key_1][obj_key_2][obj_key_3]
         
     except:
-        print("error en el INSERT")
+        print("error en el resultado de la API")
         return False
     else:
         metadata = MetaData(bind=None)
-        table_conected = Table(bbdd_table, metadata,autoload=True,autoload_with=server)
-        for data_insert in data_to_insert_1:
+        table_conected = Table(bbdd_table, metadata,autoload=True,autoload_with=engine)
+
+        #insertamos los datos en la tabla creada
+        for data_insert in data_to_insert_1: 
             stmt_in = (insert(table_conected).
                 values(
                     section= data_insert
                     
                 )
             )
-            print(stmt_in, data_insert)
+            # print(stmt_in, data_insert)
             server_connection.execute(stmt_in)
-        server_connection.close()
-        
-        return True # cerramos conexion a la bbdd
-    return True #si la promesa de futuro se cumple, seguiremos caminando juntos
 
-tirarDelHilo ( 'mysql+pymysql://4geeks:4geeks@localhost/WarsStart?charset=utf8mb4', 'sections', 'result', '', '', 'https://www.swapi.tech/api/', '')
+        server_connection.close() # cerramos conexion a la bbdd
+        #si la promesa de futuro se cumple, seguiremos caminando juntos
+        return True 
+
+tirarDelHilo ( 'mysql+pymysql://4geeks:4geeks@localhost/WarsStart?charset=utf8mb4', 'sections', 'result', '', '', 'https://www.swapi.tech/api/', '', ["Column('id', Integer, primary_key = True)", "Column('section', String(255))"])
+
+#{'id':'Column("id", Integer, primary_key = True)', 'section':'Column("section", String(255))'}
