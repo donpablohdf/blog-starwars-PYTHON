@@ -25,7 +25,7 @@ tb_in = Table(
 
 stmt = select([
     tb.columns.id
-]).where((tb.columns.id>=79) &  (tb.columns.id<=82))
+]).where((tb.columns.id>=1) &  (tb.columns.id<=82))
 
 connection = engine.connect()
 results = connection.execute(stmt).fetchall()

@@ -6,8 +6,8 @@ engine = create_engine(
 connection = engine.connect()
 metadata = MetaData(bind=None)
 
-films_tb = Table(
-    'films',
+tb = Table(
+    'sections',
     metadata,
     autoload=True,
     autoload_with=engine
@@ -17,10 +17,10 @@ films_tb = Table(
 
 with open('JSON/api/films.json') as file:
     data = json.load(file)
-# pasar section_type
+
     for result in data['result']:
         stmt = (
-            insert(films_tb).
+            insert(tb).
             values(
                 id=result['uid'], 
                 description=result['description'],

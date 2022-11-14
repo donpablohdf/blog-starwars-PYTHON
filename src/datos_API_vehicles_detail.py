@@ -23,7 +23,7 @@ tb_in = Table(
 
 stmt = select([
     tb.columns.id
-]).where((tb.columns.id>=46) &  (tb.columns.id<=76))
+]).where((tb.columns.id>=1) &  (tb.columns.id<=76))
 
 connection = engine.connect()
 results = connection.execute(stmt).fetchall()
