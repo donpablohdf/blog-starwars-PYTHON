@@ -38,7 +38,7 @@ def tirarDelHilo (bbdd_conex, bbdd_table, obj_key_1, obj_key_2, obj_key_3, json_
         def datos():
             for datos in create_table:
                 return eval(datos)
-
+        
         tabla_crear = Table(
             bbdd_table, metadata,
             datos()
@@ -74,15 +74,15 @@ def tirarDelHilo (bbdd_conex, bbdd_table, obj_key_1, obj_key_2, obj_key_3, json_
         table_conected = Table(bbdd_table, metadata,autoload=True,autoload_with=engine)
 
         #insertamos los datos en la tabla creada
-        for data_insert in data_to_insert_1: 
-            stmt_in = (insert(table_conected).
-                values(
-                    section= data_insert
+        # for data_insert in data_to_insert_1: 
+        #     stmt_in = (insert(table_conected).
+        #         values(
+        #             section= data_to_insert_1
                     
-                )
-            )
-            # print(stmt_in, data_insert)
-            server_connection.execute(stmt_in)
+        #         )
+        #     )
+        #     # print(stmt_in, data_insert)
+        #     server_connection.execute(stmt_in)
 
         server_connection.close() # cerramos conexion a la bbdd
         #si la promesa de futuro se cumple, seguiremos caminando juntos
