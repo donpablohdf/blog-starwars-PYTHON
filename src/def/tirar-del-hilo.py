@@ -17,7 +17,7 @@ CONFIG={
     'create_columns':["Column('id', Integer, primary_key = True)", "Column('section', String(255))"]
 }
 
-"""#---O J O--- url para empezar a tirar del hilo CONFIG['API_url'] = 'https://www.swapi.tech/api/'"""
+# """#---O J O--- url para empezar a tirar del hilo CONFIG['API_url'] = 'https://www.swapi.tech/api/'"""
 
 # 'create_columns':'Column("id", Integer, primary_key = True), Column("section", String(255))'
 
@@ -28,11 +28,11 @@ CONFIG={
 
 #'create_columns': {'id':'Column("id", Integer, primary_key = True)', 'section':'Column("section", String(255))'}
 
-"""  NO BORRAR 
-    def promesa_cumplida (prometo_al_futuro):
-        #cuando se cumple la promesa
-        return prometo_al_futuro.result() 
-    """
+# """  NO BORRAR 
+#     def promesa_cumplida (prometo_al_futuro):
+#         #cuando se cumple la promesa
+#         return prometo_al_futuro.result() 
+#     """
 
 def tirarDelHilo ():
 # API----------------------------------------------------------------------
@@ -40,9 +40,9 @@ def tirarDelHilo ():
     if CONFIG['API_url'] is not None:
         json_API_data = requests.get(CONFIG['API_url'])
         prometo_al_futuro = Future()
-        """ NO BORRAR 
-        prometo_al_futuro.add_done_callback(promesa_cumplida)
-        """
+        # """ NO BORRAR 
+        # prometo_al_futuro.add_done_callback(promesa_cumplida)
+        # """
         prometo_al_futuro.set_result(json_API_data.text)
     else:
         raise Exception ("No se puede continuar sin un CONFIG['API_url'] válido")
@@ -90,7 +90,7 @@ def tirarDelHilo ():
             #junto con 
             # def cons_columns():
                 # for add_column in CONFIG['create_columns']:
-                # return eval(add_column)
+                    # return eval(add_column)
             # si CONFIG['create_columns'] = ["Column('id', Integer, primary_key = True)", "Column('section', String(255))"]
 
             # NO FUNCIONA
