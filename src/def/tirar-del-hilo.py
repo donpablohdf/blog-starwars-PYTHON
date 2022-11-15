@@ -111,15 +111,16 @@ def tirarDelHilo ():
             data_to_insert_3=data_to_insert[CONFIG['obj_key_1']][CONFIG['obj_key_2']][CONFIG['obj_key_3']]
         #insertamos los datos en la tabla creada
         
-        #Table(CONFIG['bbdd_table'], metadata,autoload=True,autoload_with=engine)
-        # for data_insert in data_to_insert_1: 
-        #     stmt_in = (insert(table_conected).
-        #         values(
-        #             section= data_insert
-        #         )
-        #     )
-        #     # print(stmt_in, data_insert)
-        #     server_connection.execute(stmt_in)
+        table_conected= Table(CONFIG['bbdd_table'], metadata,autoload=True,autoload_with=engine)
+        for data_insert in data_to_insert_1: 
+            stmt_in = (insert(table_conected).
+                values(
+                    #también necesitamos que esto sea dínamico según CONFIG['create_columns']
+                    section= data_insert
+                )
+            )
+            # print(stmt_in, data_insert)
+            server_connection.execute(stmt_in)
 
         server_connection.close() # cerramos conexion a la bbdd
         #si la promesa de futuro se cumple, seguiremos caminando juntos
