@@ -29,10 +29,10 @@ CONFIG={
 #'create_columns': {'id':'Column("id", Integer, primary_key = True)', 'section':'Column("section", String(255))'}
 
 # """  NO BORRAR 
-#     def promesa_cumplida (prometo_al_futuro):
-#         #cuando se cumple la promesa
-#         return prometo_al_futuro.result() 
-#     """
+def promesa_cumplida (prometo_al_futuro):
+    #cuando se cumple la promesa
+    return prometo_al_futuro.result() 
+
 
 def tirarDelHilo ():
 # API----------------------------------------------------------------------
@@ -40,13 +40,10 @@ def tirarDelHilo ():
     if CONFIG['API_url'] is not None:
         json_API_data = requests.get(CONFIG['API_url'])
         prometo_al_futuro = Future()
-        # """ NO BORRAR 
-        # prometo_al_futuro.add_done_callback(promesa_cumplida)
-        # """
+        prometo_al_futuro.add_done_callback(promesa_cumplida)
         prometo_al_futuro.set_result(json_API_data.text)
     else:
         raise Exception ("No se puede continuar sin un CONFIG['API_url'] válido")
-        return False
 
     # CONFIG['json_path_file'] = 'JSON/api/sections.json' lo usamos para crear el archivo json  
     if CONFIG['json_path_file'] is not None:
@@ -103,11 +100,11 @@ def tirarDelHilo ():
     try:
         data_from_API=prometo_al_futuro.result()
         data_to_insert= json.loads(data_from_API)
-        if CONFIG['obj_key_1']!='':
+        if CONFIG['obj_key_1']is not None:
             data_to_insert_1=data_to_insert[CONFIG['obj_key_1']]
-        if CONFIG['obj_key_2']!='':
+        if CONFIG['obj_key_2']is not None:
             data_to_insert_2=data_to_insert[CONFIG['obj_key_1']][CONFIG['obj_key_2']]
-        if CONFIG['obj_key_3']!='':
+        if CONFIG['obj_key_3']is not None:
             data_to_insert_3=data_to_insert[CONFIG['obj_key_1']][CONFIG['obj_key_2']][CONFIG['obj_key_3']]
         #insertamos los datos en la tabla creada
         
@@ -126,8 +123,7 @@ def tirarDelHilo ():
         #si la promesa de futuro se cumple, seguiremos caminando juntos
         return True 
     except:
-        print("error en el resultado de la API")
-        return False
+        raise Exception("error al insertar en la tabla")
         
 # llamada a la funcion
 tirarDelHilo ()
